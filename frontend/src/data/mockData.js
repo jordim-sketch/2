@@ -5,7 +5,7 @@ export const siteConfig = {
   tagline: "Be Your Own Hero",
   instagram: "@THESQRLLEIDA",
   instagramUrl: "https://www.instagram.com/thesqrlleida/",
-  spotifyPlaylist: "SQUARED PLAYLIST"
+  spotifyPlaylist: "SQUARED PLAYLIST2d9b8292"
 };
 
 export const heroData = {

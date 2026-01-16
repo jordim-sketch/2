@@ -3,15 +3,23 @@ import { heroData, siteConfig } from '../data/mockData';
 import { Music } from 'lucide-react';
 
 const HeroSection = () => {
+  // Google Drive video - converted to direct link
+  const videoUrl = "https://drive.google.com/uc?export=download&id=1sjSgW8MdpGSjNe2rI8qzP2hxjvz9wNPC";
+  
   return (
     <section className="relative h-screen w-full overflow-hidden bg-black">
-      {/* Background Image - Dark lines pattern */}
+      {/* Video Background */}
       <div className="absolute inset-0">
-        <img
-          src="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/6d2yw2ud_IMG_2510-2.jpg"
-          alt="Background"
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover opacity-70"
-        />
+          poster="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/6d2yw2ud_IMG_2510-2.jpg"
+        >
+          <source src={videoUrl} type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-black/30" />
       </div>
 
