@@ -11,7 +11,7 @@ const PhilosophySection = () => {
             <blockquote className="text-2xl md:text-3xl lg:text-4xl text-black italic leading-relaxed mb-6">
               "{coachPhilosophy.quote}"
             </blockquote>
-            <p className="text-lg md:text-xl text-black/70 font-bold">
+            <p className="text-lg md:text-xl text-[#4DD9D9] font-bold">
               {coachPhilosophy.subtext}
             </p>
           </div>
@@ -21,7 +21,7 @@ const PhilosophySection = () => {
             <img
               src={coachPhilosophy.image}
               alt="Coach philosophy"
-              className="w-full h-[400px] md:h-[500px] object-cover filter sepia"
+              className="w-full h-[400px] md:h-[500px] object-cover grayscale"
             />
           </div>
         </div>
