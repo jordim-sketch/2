@@ -27,7 +27,7 @@ const OnlineCoachingSection = () => {
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-wider">
               {onlineCoaching.title}
             </h3>
-            <p className="text-xl md:text-2xl text-[#4DD9D9] font-medium mb-6">
+            <p className="text-xl md:text-2xl text-[#2CA5A5] font-medium mb-6">
               {onlineCoaching.subtitle}
             </p>
             <p className="text-white/70 leading-relaxed mb-10">
@@ -72,7 +72,7 @@ const OnlineCoachingSection = () => {
               href={siteConfig.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#4DD9D9] text-black font-bold px-8 py-4 text-sm tracking-wider hover:bg-[#3BC9C9] transition-colors"
+              className="inline-block bg-[#2CA5A5] text-black font-bold px-8 py-4 text-sm tracking-wider hover:bg-[#248888] transition-colors"
             >
               Contáctame
             </a>
