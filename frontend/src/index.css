@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 body {
     margin: 0;
@@ -19,7 +19,9 @@ code {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 @layer base {
@@ -30,25 +32,26 @@ h1, h2, h3, h4, h5, h6 {
         --card-foreground: 0 0% 100%;
         --popover: 0 0% 5%;
         --popover-foreground: 0 0% 100%;
-        --primary: 43 74% 52%;
+        --primary: 174 72% 56%;
         --primary-foreground: 0 0% 0%;
         --secondary: 0 0% 10%;
         --secondary-foreground: 0 0% 100%;
         --muted: 0 0% 15%;
         --muted-foreground: 0 0% 60%;
-        --accent: 43 74% 52%;
+        --accent: 174 72% 56%;
         --accent-foreground: 0 0% 0%;
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
         --border: 0 0% 20%;
         --input: 0 0% 20%;
-        --ring: 43 74% 52%;
-        --chart-1: 43 74% 52%;
+        --ring: 174 72% 56%;
+        --chart-1: 174 72% 56%;
         --chart-2: 173 58% 39%;
         --chart-3: 197 37% 24%;
         --chart-4: 43 74% 66%;
         --chart-5: 27 87% 67%;
         --radius: 0.5rem;
+        --brand-cyan: #4DD9D9;
     }
 }
 
@@ -86,4 +89,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .animate-marquee2 {
     animation: marquee2 25s linear infinite;
+}
+
+/* Grayscale filter for images */
+.filter-gray {
+    filter: grayscale(100%) brightness(90%) contrast(110%);
+}
+
+/* Brand color */
+.text-brand {
+    color: #4DD9D9;
+}
+
+.bg-brand {
+    background-color: #4DD9D9;
 }
