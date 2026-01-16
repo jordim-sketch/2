@@ -133,9 +133,9 @@ export const testimonials = {
 };
 
 export const galleryImages = [
-  "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxmdW5jdGlvbmFsJTIwZml0bmVzc3xlbnwwfHx8fDE3Njg1NzQ5MTV8MA&ixlib=rb-4.1.0&q=85",
-  "https://images.unsplash.com/photo-1662045010187-80bf72e85eee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxjcm9zc2ZpdCUyMGF0aGxldGV8ZW58MHx8fHwxNzY4NTc0OTIwfDA&ixlib=rb-4.1.0&q=85",
-  "https://images.pexels.com/photos/416754/pexels-photo-416754.jpeg"
+  "https://images.pexels.com/photos/841131/pexels-photo-841131.jpeg?auto=compress&cs=tinysrgb&w=800",
+  "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=800",
+  "https://images.pexels.com/photos/416754/pexels-photo-416754.jpeg?auto=compress&cs=tinysrgb&w=800"
 ];
 
 export const ctaSection = {
