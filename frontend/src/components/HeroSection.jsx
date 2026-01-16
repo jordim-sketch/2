@@ -44,7 +44,9 @@ const HeroSection = () => {
       {/* Bottom Bar */}
       <div className="absolute bottom-0 left-0 right-0 bg-black/80 py-3 px-6 flex justify-between items-center z-20">
         <a
-          href="#"
+          href={siteConfig.spotifyUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-white/70 text-xs tracking-wider hover:text-[#2CA5A5] transition-colors flex items-center gap-2"
         >
           <Music className="w-4 h-4" /> {siteConfig.spotifyPlaylist}
