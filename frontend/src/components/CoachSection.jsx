@@ -15,7 +15,7 @@ const CoachSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Left Content */}
           <div>
-            <p className="text-[#4DD9D9] font-bold tracking-wider mb-2">
+            <p className="text-[#2CA5A5] font-bold tracking-wider mb-2">
               {aboutSection.coachTitle}
             </p>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-light text-black mb-6">
@@ -58,7 +58,7 @@ const CoachSection = () => {
                         <ul className="space-y-2">
                           {helpItems.map((help, idx) => (
                             <li key={idx} className="text-black/70 flex items-start gap-2">
-                              <span className="text-[#4DD9D9] font-bold">|</span>
+                              <span className="text-[#2CA5A5] font-bold">|</span>
                               {help}
                             </li>
                           ))}
