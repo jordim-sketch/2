@@ -25,13 +25,6 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6">
-        {/* Logo The Squared Room - NEW */}
-        <img
-          src="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/nn7tel8o_logoSQR-negatiu-1.png"
-          alt="The Squared Room Logo"
-          className="w-48 md:w-64 lg:w-80 mb-8"
-        />
-        
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-wider mb-6">
           {heroData.name}
         </h1>
