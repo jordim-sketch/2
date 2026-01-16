@@ -20,7 +20,7 @@ export const aboutSection = {
   coachName: "Coach Alex",
   coachTitle: "ATLETA Y COACH FUNCIONAL",
   coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining",
-  coachImage: "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/omqm1m4k_theSQR_FittestPics_8.JPG"
+  coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
 export const accordionItems = [
