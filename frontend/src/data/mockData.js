@@ -1,0 +1,144 @@
+// Mock data for The Squared Room website
+
+export const siteConfig = {
+  name: "The Squared Room",
+  tagline: "Tu espacio de entrenamiento",
+  instagram: "@THE_SQUARED_ROOM",
+  instagramUrl: "https://www.instagram.com/the_squared_room/",
+  spotifyPlaylist: "SQUARED PLAYLIST"
+};
+
+export const heroData = {
+  name: "THE SQUARED ROOM",
+  subtitle: "FUNCTIONAL FITNESS & COACH",
+  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playlist=dQw4w9WgXcQ"
+};
+
+export const aboutSection = {
+  title: "THE SQUARED ROOM Nació con una idea clara",
+  mainText: "cambiar la forma en la que entrenas, compites y entiendes el deporte",
+  coachName: "Coach Alex",
+  coachTitle: "ATLETA Y COACH FUNCIONAL",
+  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining",
+  coachImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzY4NTc0OTI2fDA&ixlib=rb-4.1.0&q=85"
+};
+
+export const accordionItems = [
+  {
+    id: "formacion",
+    title: "Formación",
+    content: "Me he formado como entrenador personal, tengo un Máster en Crosstraining: Entrenamiento, Nutrición y Readaptación, y soy Coach certificado en entrenamiento funcional."
+  },
+  {
+    id: "filosofia",
+    title: "Filosofía de Entrenamiento",
+    content: "No vengo a prometerte milagros, vengo a enseñarte a entrenar mejor, rendir más y superar tus límites. Sea cual sea tu nivel, vas a encontrar una programación pensada para hacerte más fuerte, más rápido y más completo. Porque al final, esto va de: ser mejor cada día."
+  },
+  {
+    id: "coach",
+    title: "Tu coach funcional",
+    content: "Tu guía hacia el siguiente nivel. Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining. Mi enfoque es simple: combinar fuerza, resistencia y mentalidad."
+  }
+];
+
+export const helpItems = [
+  "Quieres mejorar tus marcas en HYROX o DEKA.",
+  "Buscas un plan estructurado sin perder la motivación.",
+  "Necesitas equilibrio entre fuerza y cardio.",
+  "Quieres entrenar como un atleta funcional, sin complicaciones."
+];
+
+export const hybridSportSection = {
+  title: "DEPORTE FUNCIONAL",
+  description: "El entrenamiento funcional combina lo mejor de dos mundos: la fuerza del CrossTraining y la resistencia del running o del cardio funcional.",
+  quote: "Un atleta funcional es capaz de levantar, correr, remar, empujar y resistir — todo con la misma eficacia.",
+  bottomText: "No se trata solo de estar en forma. Se trata de ser completo. De rendir cuando el cuerpo duele y la mente quiere parar. De ser capaz de TODO.",
+  images: [
+    "https://images.unsplash.com/photo-1662045010189-9c7b8acd57f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxjcm9zc2ZpdCUyMGF0aGxldGV8ZW58MHx8fHwxNzY4NTc0OTIwfDA&ixlib=rb-4.1.0&q=85",
+    "https://images.unsplash.com/photo-1662045010188-b5e91a7f504b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxjcm9zc2ZpdCUyMGF0aGxldGV8ZW58MHx8fHwxNzY4NTc0OTIwfDA&ixlib=rb-4.1.0&q=85"
+  ]
+};
+
+export const marqueeText = "NO EXCUSES NO LIMITS ";
+
+export const coachPhilosophy = {
+  quote: "Mi enfoque es simple: combinar fuerza, resistencia y mentalidad",
+  subtext: "Aquí no hay secretos, solo trabajo, constancia y disciplina",
+  image: "https://images.unsplash.com/photo-1584466977773-e625c37cdd50?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzY4NTc0OTI2fDA&ixlib=rb-4.1.0&q=85"
+};
+
+export const onlineCoaching = {
+  title: "ASESORÍA ONLINE",
+  subtitle: "Entrenamiento personalizado para atletas reales.",
+  description: "Esta es la opción para quienes quieren ir un paso más allá. No se trata solo de seguir una app. Se trata de tener a un coach que te guía, te corrige y te empuja a tu máximo rendimiento.",
+  image: "https://images.unsplash.com/photo-1648542036561-e1d66a5ae2b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzY4NTc0OTI2fDA&ixlib=rb-4.1.0&q=85"
+};
+
+export const faqItems = [
+  {
+    question: "¿En qué consiste exactamente la asesoría online?",
+    answer: "Es un acompañamiento 100% personalizado. Diseñamos tu planificación según tus objetivos, horarios, material y nivel. Reviso tus sesiones, te doy feedback semanal y ajustamos todo según tu evolución."
+  },
+  {
+    question: "¿Para quién es la asesoría online?",
+    answer: "Para atletas que no se conforman con una plantilla general. Si quieres un plan hecho para ti, con seguimiento real y una mejora continua, esta es tu opción."
+  },
+  {
+    question: "¿Qué resultados puedo esperar?",
+    answer: "Más rendimiento, más control, y mejores sensaciones en cada entreno. Mejorarás tu fuerza, tu capacidad cardiovascular y tu técnica en cada bloque. El progreso será visible y medible."
+  },
+  {
+    question: "¿Cómo se trabaja?",
+    answer: "Nos comunicamos directamente por mensaje o llamada semanal. Te entrego tu programación, analizamos resultados, y ajustamos cada semana según tus métricas y sensaciones."
+  },
+  {
+    question: "¿Necesito mucho material?",
+    answer: "No. Adaptamos el plan al entorno y material que tengas: gimnasio, box o casa. Lo importante es tu compromiso."
+  },
+  {
+    question: "¿Qué diferencia hay con la programación general?",
+    answer: "En la app sigues un plan estructurado; en la asesoría yo estoy contigo en el proceso, afinando cada detalle para maximizar tu rendimiento."
+  }
+];
+
+export const testimonials = {
+  title: "¿Una motivación extra?",
+  subtitle: "VUESTRAS EXPERIENCIAS SON NUESTRA MAYOR MOTIVACIÓN",
+  items: [
+    {
+      text: "He mejorado muchísimo en las últimas semanas. Los entrenamientos son muy divertidos aunque sean duros.",
+      author: "María G."
+    },
+    {
+      text: "Gracias por llevarme a mis límites y ayudarme a superarlos. Nunca pensé que podría llegar tan lejos.",
+      author: "Carlos R."
+    },
+    {
+      text: "Me divierten mucho los entrenos de fuerza aunque sean duros. La verdad que me estoy viendo bastante mejor.",
+      author: "Laura M."
+    },
+    {
+      text: "He disfrutado muchísimo. Mil gracias por todo el apoyo y la dedicación constante.",
+      author: "Pedro S."
+    },
+    {
+      text: "Mejoré mi cardio increíblemente. Los planes son muy completos y bien estructurados.",
+      author: "Ana P."
+    },
+    {
+      text: "La asesoría personalizada marcó la diferencia. Resultados visibles en pocas semanas.",
+      author: "Jorge L."
+    }
+  ]
+};
+
+export const galleryImages = [
+  "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxmdW5jdGlvbmFsJTIwZml0bmVzc3xlbnwwfHx8fDE3Njg1NzQ5MTV8MA&ixlib=rb-4.1.0&q=85",
+  "https://images.unsplash.com/photo-1662045010187-80bf72e85eee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxjcm9zc2ZpdCUyMGF0aGxldGV8ZW58MHx8fHwxNzY4NTc0OTIwfDA&ixlib=rb-4.1.0&q=85",
+  "https://images.pexels.com/photos/416754/pexels-photo-416754.jpeg"
+];
+
+export const ctaSection = {
+  title: "Entrena como un atleta funcional",
+  buttonText: "Contáctame"
+};
