@@ -54,8 +54,8 @@ export const hybridSportSection = {
   quote: "Un atleta funcional es capaz de levantar, correr, remar, empujar y resistir — todo con la misma eficacia.",
   bottomText: "No se trata solo de estar en forma. Se trata de ser completo. De rendir cuando el cuerpo duele y la mente quiere parar. De ser capaz de TODO.",
   images: [
-    "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/a8nl1i4t_IMG_0033.jpg",
+    "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/omqm1m4k_theSQR_FittestPics_8.JPG"
   ]
 };
 
