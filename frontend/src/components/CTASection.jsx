@@ -12,7 +12,7 @@ const CTASection = () => {
           href={siteConfig.instagramUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-white text-black font-bold px-10 py-4 text-sm tracking-wider hover:bg-white/90 transition-colors"
+          className="inline-block bg-[#4DD9D9] text-black font-bold px-10 py-4 text-sm tracking-wider hover:bg-[#3BC9C9] transition-colors"
         >
           {ctaSection.buttonText}
         </a>
