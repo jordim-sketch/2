@@ -6,7 +6,7 @@ const AboutSection = () => {
       {/* Image Background Section */}
       <div className="relative h-[60vh] md:h-[70vh] overflow-hidden">
         <img
-          src="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/a8nl1i4t_IMG_0033.jpg"
+          src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Gym background"
           className="w-full h-full object-cover grayscale opacity-40"
         />
@@ -17,7 +17,7 @@ const AboutSection = () => {
             <span className="font-bold text-white">THE SQUARED ROOM</span> Nació con{' '}
             <span className="font-bold text-white">una idea clara</span>
           </p>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#4DD9D9] leading-tight max-w-5xl">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#2CA5A5] leading-tight max-w-5xl">
             cambiar la forma en la que entrenas, compites y entiendes el deporte
           </h2>
         </div>
