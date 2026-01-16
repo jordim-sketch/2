@@ -20,7 +20,7 @@ export const aboutSection = {
   coachName: "Coach Alex",
   coachTitle: "ATLETA Y COACH FUNCIONAL",
   coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining",
-  coachImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzY4NTc0OTI2fDA&ixlib=rb-4.1.0&q=85"
+  coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
 export const accordionItems = [
