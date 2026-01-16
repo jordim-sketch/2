@@ -11,7 +11,7 @@ const PhilosophySection = () => {
             <blockquote className="text-2xl md:text-3xl lg:text-4xl text-black italic leading-relaxed mb-6">
               "{coachPhilosophy.quote}"
             </blockquote>
-            <p className="text-lg md:text-xl text-[#4DD9D9] font-bold">
+            <p className="text-lg md:text-xl text-[#2CA5A5] font-bold">
               {coachPhilosophy.subtext}
             </p>
           </div>
