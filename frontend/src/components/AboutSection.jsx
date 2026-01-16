@@ -1,5 +1,4 @@
 import React from 'react';
-import { aboutSection } from '../data/mockData';
 
 const AboutSection = () => {
   return (
@@ -7,7 +6,7 @@ const AboutSection = () => {
       {/* Image Background Section */}
       <div className="relative h-[60vh] md:h-[70vh] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=1920&q=80"
+          src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Gym background"
           className="w-full h-full object-cover filter sepia opacity-40"
         />
