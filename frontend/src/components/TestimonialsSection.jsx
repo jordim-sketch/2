@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black leading-tight">
             VUESTRAS EXPERIENCIAS<br />
             SON NUESTRA MAYOR<br />
-            <span className="text-[#4DD9D9]">MOTIVACIÓN</span>
+            <span className="text-[#2CA5A5]">MOTIVACIÓN</span>
           </h2>
         </div>
 
