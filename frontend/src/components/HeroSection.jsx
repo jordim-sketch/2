@@ -3,24 +3,21 @@ import { heroData, siteConfig } from '../data/mockData';
 import { Music } from 'lucide-react';
 
 const HeroSection = () => {
-  // Google Drive video - converted to direct link
-  const videoUrl = "https://drive.google.com/uc?export=download&id=1sjSgW8MdpGSjNe2rI8qzP2hxjvz9wNPC";
-  
   return (
     <section className="relative h-screen w-full overflow-hidden bg-black">
-      {/* Video Background */}
+      {/* YouTube Video Background */}
       <div className="absolute inset-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover opacity-70"
-          poster="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/6d2yw2ud_IMG_2510-2.jpg"
-        >
-          <source src={videoUrl} type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
+          <iframe
+            className="absolute top-1/2 left-1/2 w-[300%] h-[300%] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            src="https://www.youtube.com/embed/6qLpngcy7TA?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playlist=6qLpngcy7TA&playsinline=1&modestbranding=1&iv_load_policy=3&disablekb=1"
+            title="Background Video"
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          />
+        </div>
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       {/* Content */}
@@ -45,7 +42,7 @@ const HeroSection = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="absolute bottom-0 left-0 right-0 bg-black/80 py-3 px-6 flex justify-between items-center">
+      <div className="absolute bottom-0 left-0 right-0 bg-black/80 py-3 px-6 flex justify-between items-center z-20">
         <a
           href="#"
           className="text-white/70 text-xs tracking-wider hover:text-[#2CA5A5] transition-colors flex items-center gap-2"
