@@ -1,25 +1,18 @@
 import React from 'react';
 import { heroData, siteConfig } from '../data/mockData';
+import { Music } from 'lucide-react';
 
 const HeroSection = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden bg-black">
-      {/* Video Background */}
+      {/* Image Background */}
       <div className="absolute inset-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover opacity-60"
-          poster="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=1920&q=80"
-        >
-          <source
-            src="https://static.videezy.com/system/resources/previews/000/041/886/original/Stock-footage-male-athlete-doing-deadlift-in-gym-in-slow-motion-Shot-with-RED-helium-camera-in-8K.mp4"
-            type="video/mp4"
-          />
-        </video>
-        <div className="absolute inset-0 bg-black/50" />
+        <img
+          src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          alt="Gym background"
+          className="w-full h-full object-cover opacity-50"
+        />
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       {/* Content */}
@@ -48,7 +41,7 @@ const HeroSection = () => {
           href="#"
           className="text-white/70 text-xs tracking-wider hover:text-white transition-colors flex items-center gap-2"
         >
-          <span className="text-lg">🎵</span> {siteConfig.spotifyPlaylist}
+          <Music className="w-4 h-4" /> {siteConfig.spotifyPlaylist}
         </a>
         <div className="flex items-center gap-4">
           <a
