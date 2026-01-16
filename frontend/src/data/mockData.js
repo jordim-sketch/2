@@ -133,9 +133,9 @@ export const testimonials = {
 };
 
 export const galleryImages = [
-  "https://images.pexels.com/photos/841131/pexels-photo-841131.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "https://images.pexels.com/photos/416754/pexels-photo-416754.jpeg?auto=compress&cs=tinysrgb&w=800"
+  "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/a8nl1i4t_IMG_0033.jpg",
+  "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/22urv8cs_IMG_3152.JPG",
+  "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/omqm1m4k_theSQR_FittestPics_8.JPG"
 ];
 
 export const ctaSection = {
