@@ -16,7 +16,7 @@ const HybridSportSection = () => {
               <span className="font-bold text-white">fuerza</span> del CrossTraining y la{' '}
               <span className="font-bold text-white">resistencia</span> del running o del cardio funcional.
             </p>
-            <blockquote className="text-xl md:text-2xl text-[#4DD9D9] italic leading-relaxed mb-8">
+            <blockquote className="text-xl md:text-2xl text-[#2CA5A5] italic leading-relaxed mb-8">
               "{hybridSportSection.quote}"
             </blockquote>
             <p className="text-white/70 leading-relaxed">
