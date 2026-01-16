@@ -64,14 +64,14 @@ export const marqueeText = "NO EXCUSES NO LIMITS ";
 export const coachPhilosophy = {
   quote: "Mi enfoque es simple: combinar fuerza, resistencia y mentalidad",
   subtext: "Aquí no hay secretos, solo trabajo, constancia y disciplina",
-  image: "https://images.unsplash.com/photo-1584466977773-e625c37cdd50?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzY4NTc0OTI2fDA&ixlib=rb-4.1.0&q=85"
+  image: "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
 export const onlineCoaching = {
   title: "ASESORÍA ONLINE",
   subtitle: "Entrenamiento personalizado para atletas reales.",
   description: "Esta es la opción para quienes quieren ir un paso más allá. No se trata solo de seguir una app. Se trata de tener a un coach que te guía, te corrige y te empuja a tu máximo rendimiento.",
-  image: "https://images.unsplash.com/photo-1648542036561-e1d66a5ae2b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzY4NTc0OTI2fDA&ixlib=rb-4.1.0&q=85"
+  image: "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
 export const faqItems = [
