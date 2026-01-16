@@ -22,10 +22,10 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo - NEW */}
           <a href="#" className="flex items-center gap-3 group">
             <img
-              src="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/ca16e3yk_logoSQR-2.png"
+              src="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/nn7tel8o_logoSQR-negatiu-1.png"
               alt="The Squared Room Logo"
               className="h-10 md:h-12"
             />
@@ -37,7 +37,7 @@ const Navbar = () => {
               href={siteConfig.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/80 hover:text-[#4DD9D9] text-sm tracking-wide transition-colors"
+              className="text-white/80 hover:text-[#2CA5A5] text-sm tracking-wide transition-colors"
             >
               {siteConfig.instagram}
             </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
           {/* Cart Icon */}
           <div className="flex items-center gap-4">
-            <button className="text-white/80 hover:text-[#4DD9D9] transition-colors">
+            <button className="text-white/80 hover:text-[#2CA5A5] transition-colors">
               <ShoppingCart className="w-5 h-5" />
             </button>
             
@@ -66,7 +66,7 @@ const Navbar = () => {
               href={siteConfig.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="block py-3 text-white/80 hover:text-[#4DD9D9] text-sm tracking-wide transition-colors"
+              className="block py-3 text-white/80 hover:text-[#2CA5A5] text-sm tracking-wide transition-colors"
             >
               {siteConfig.instagram}
             </a>
