@@ -24,13 +24,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-white rounded-sm flex items-center justify-center">
-              <span className="text-black font-bold text-lg">SR</span>
-            </div>
-            <div className="hidden sm:flex flex-col">
-              <span className="text-white font-bold text-sm tracking-wider">THE SQUARED</span>
-              <span className="text-white font-bold text-sm tracking-wider">ROOM</span>
-            </div>
+            <img
+              src="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/ca16e3yk_logoSQR-2.png"
+              alt="The Squared Room Logo"
+              className="h-10 md:h-12"
+            />
           </a>
 
           {/* Desktop Navigation */}
@@ -39,7 +37,7 @@ const Navbar = () => {
               href={siteConfig.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/80 hover:text-white text-sm tracking-wide transition-colors"
+              className="text-white/80 hover:text-[#4DD9D9] text-sm tracking-wide transition-colors"
             >
               {siteConfig.instagram}
             </a>
@@ -47,7 +45,7 @@ const Navbar = () => {
 
           {/* Cart Icon */}
           <div className="flex items-center gap-4">
-            <button className="text-white/80 hover:text-white transition-colors">
+            <button className="text-white/80 hover:text-[#4DD9D9] transition-colors">
               <ShoppingCart className="w-5 h-5" />
             </button>
             
@@ -68,7 +66,7 @@ const Navbar = () => {
               href={siteConfig.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="block py-3 text-white/80 hover:text-white text-sm tracking-wide transition-colors"
+              className="block py-3 text-white/80 hover:text-[#4DD9D9] text-sm tracking-wide transition-colors"
             >
               {siteConfig.instagram}
             </a>
