@@ -2,16 +2,16 @@
 
 export const siteConfig = {
   name: "The Squared Room",
-  tagline: "Tu espacio de entrenamiento",
-  instagram: "@THE_SQUARED_ROOM",
-  instagramUrl: "https://www.instagram.com/the_squared_room/",
+  tagline: "Be Your Own Hero",
+  instagram: "@THESQRLLEIDA",
+  instagramUrl: "https://www.instagram.com/thesqrlleida/",
   spotifyPlaylist: "SQUARED PLAYLIST"
 };
 
 export const heroData = {
   name: "THE SQUARED ROOM",
   subtitle: "FUNCTIONAL FITNESS & COACH",
-  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playlist=dQw4w9WgXcQ"
+  videoUrl: ""
 };
 
 export const aboutSection = {
@@ -20,7 +20,7 @@ export const aboutSection = {
   coachName: "Coach Alex",
   coachTitle: "ATLETA Y COACH FUNCIONAL",
   coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining",
-  coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
+  coachImage: "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/omqm1m4k_theSQR_FittestPics_8.JPG"
 };
 
 export const accordionItems = [
