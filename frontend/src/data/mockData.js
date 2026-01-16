@@ -55,7 +55,7 @@ export const hybridSportSection = {
   bottomText: "No se trata solo de estar en forma. Se trata de ser completo. De rendir cuando el cuerpo duele y la mente quiere parar. De ser capaz de TODO.",
   images: [
     "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/onzvukww_IMG_0852.jpg"
+    "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800"
   ]
 };
 
