@@ -1,7 +1,7 @@
 // Mock data for The Squared Room website
 
 export const siteConfig = {
-  name: "The Squared Room Mettle program",
+  name: "The Squared Room",
   tagline: "Be Your Own Hero",
   instagram: "@THESQRLLEIDA",
   instagramUrl: "https://www.instagram.com/thesqrlleida/",
@@ -11,16 +11,16 @@ export const siteConfig = {
 
 export const heroData = {
   name: "THE SQUARED ROOM",
-  subtitle: "FUNCTIONAL FITNESS & COACH",
+  subtitle: "Mettle Program",
   videoUrl: ""
 };
 
 export const aboutSection = {
-  title: "THE SQUARED ROOM Nació con una idea clara",
+  title: "THE SQUARED ROOM Mettle Program nació con una idea clara",
   mainText: "cambiar la forma en la que entrenas, compites y entiendes el deporte",
   coachName: "Coach Jordi",
   coachTitle: "ATLETA Y COACH FUNCIONAL",
-  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining, entrenamiento híbrido que consigue un cuerpo i forma física donde el rendimiento se traduce en una presencia imponente y funcional",
+  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining. Un entrenamiento híbrido que consigue un cuerpo y forma donde el rendimiento se traduce en una presencia física imponente y funcional.",
   coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
@@ -28,12 +28,12 @@ export const accordionItems = [
   {
     id: "formacion",
     title: "Formación",
-    content: "Me he formado como entrenador personal, tengo un Máster en Crosstraining: Entrenamiento, Nutrición y Readaptación, y soy Coach certificado en entrenamiento funcional."
+    content: "Cuento con formación como entrenador personal certificado, además de un Máster especializado en Crosstraining que abarca Entrenamiento, Nutrición y Readaptación deportiva. También estoy acreditado como Coach de entrenamiento funcional de alto rendimiento."
   },
   {
     id: "filosofia",
     title: "Filosofía de Entrenamiento",
-    content: "No vengo a prometerte milagros, vengo a enseñarte a entrenar mejor, rendir más y superar tus límites. Sea cual sea tu nivel, vas a encontrar una programación pensada para hacerte más fuerte, más rápido y más completo. Porque al final, esto va de: ser mejor cada día."
+    content: "Aquí no hay fórmulas mágicas ni atajos. Mi objetivo es guiarte para que entrenes de forma más inteligente, rindas al máximo y superes tus propios límites. Da igual tu punto de partida, cada programación está diseñada para convertirte en alguien más fuerte, más veloz y más completo. Al final del día, se trata de una cosa: evolucionar constantemente."
   },
   {
     id: "coach",
@@ -47,14 +47,14 @@ export const helpItems = [
   "Buscas un plan estructurado sin perder la motivación.",
   "Necesitas equilibrio entre fuerza y cardio.",
   "Quieres entrenar como un atleta funcional, sin complicaciones.",
-  "Quieres mejorar tu composición corporal?"
+  "¿Quieres un cuerpo y forma física imponente y funcional?"
 ];
 
 export const hybridSportSection = {
   title: "DEPORTE FUNCIONAL",
-  description: "El entrenamiento funcional combina lo mejor de dos mundos: la fuerza del CrossTraining y la resistencia del running o del cardio funcional.",
+  description: "El entrenamiento funcional combina lo mejor de dos mundos: la fuerza del CrossTraining, el trabajo en sala de pesas y la resistencia del running o del cardio funcional.",
   quote: "Un atleta funcional es capaz de levantar, correr, remar, empujar y resistir — todo con la misma eficacia.",
-  bottomText: "No se trata solo de estar en forma. Se trata de ser completo. De rendir cuando el cuerpo duele y la mente quiere parar. De ser capaz de TODO.",
+  bottomText: "No se trata solo de estar en forma. Se trata de ser completo. De dominar tanto el gimnasio como cualquier prueba física. De rendir cuando el cuerpo duele y la mente quiere parar. De ser capaz de TODO.",
   images: [
     "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=800",
     "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800"
