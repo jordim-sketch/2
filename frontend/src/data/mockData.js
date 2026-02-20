@@ -20,7 +20,8 @@ export const aboutSection = {
   mainText: "cambiar la forma en la que entrenas, compites y entiendes el deporte",
   coachName: "Coach Jordi",
   coachTitle: "ATLETA Y COACH FUNCIONAL",
-  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining. Un entrenamiento híbrido que consigue un cuerpo y forma donde el rendimiento se traduce en una presencia física imponente y funcional.",
+  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining. Un entrenamiento híbrido que consigue un estado donde el rendimiento se traduce en una presencia física imponente y funcional.",
+  coachMotto: "METTLE PROGRAM: coraje, espíritu, temple o valor. Es esa capacidad intrínseca de una persona para afrontar una situación difícil o exigente de la mejor manera posible.",
   coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
