@@ -1,8 +1,8 @@
 // Mock data for The Squared Room website
 
 export const siteConfig = {
-  name: "The Squared Room",
-  tagline: "Be Your Own Hero",
+  name: "The Squared Room Mettle program",
+  tagline: "Be Your Own Hero"
   instagram: "@THESQRLLEIDA",
   instagramUrl: "https://www.instagram.com/thesqrlleida/",
   spotifyPlaylist: "SQUARED PLAYLIST",
@@ -18,9 +18,9 @@ export const heroData = {
 export const aboutSection = {
   title: "THE SQUARED ROOM Nació con una idea clara",
   mainText: "cambiar la forma en la que entrenas, compites y entiendes el deporte",
-  coachName: "Coach Alex",
+  coachName: "Coach Jordi",
   coachTitle: "ATLETA Y COACH FUNCIONAL",
-  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining",
+  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining, entrenamiento híbrido que consigue un cuerpo i forma física donde el rendimiento se traduce en una presencia imponente y funcional" ,
   coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
@@ -46,7 +46,8 @@ export const helpItems = [
   "Quieres mejorar tus marcas en HYROX o DEKA.",
   "Buscas un plan estructurado sin perder la motivación.",
   "Necesitas equilibrio entre fuerza y cardio.",
-  "Quieres entrenar como un atleta funcional, sin complicaciones."
+  "Quieres entrenar como un atleta funcional, sin complicaciones.
+  "Quieres mejorar tu composición corporal?"
 ];
 
 export const hybridSportSection = {
