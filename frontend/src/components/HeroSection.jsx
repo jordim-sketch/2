@@ -22,9 +22,14 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-wider mb-6">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-wider mb-2">
           {heroData.name}
         </h1>
+        
+        {/* Mettle Program subtitle */}
+        <p className="text-lg md:text-xl lg:text-2xl text-white tracking-widest mb-6">
+          {heroData.subtitle}
+        </p>
         
         {/* Be Your Own Hero tagline - DARKER CYAN */}
         <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#2CA5A5] tracking-widest mb-8">
