@@ -14,7 +14,8 @@ const AboutSection = () => {
         
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6">
           <p className="text-white/80 text-lg md:text-xl mb-4">
-            <span className="font-bold text-white">THE SQUARED ROOM</span> Nació con{' '}
+            <span className="font-bold text-white">THE SQUARED ROOM</span>{' '}
+            <span className="text-white">Mettle Program</span> nació con{' '}
             <span className="font-bold text-white">una idea clara</span>
           </p>
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#2CA5A5] leading-tight max-w-5xl">
