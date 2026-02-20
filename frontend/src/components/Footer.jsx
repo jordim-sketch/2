@@ -8,12 +8,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-16 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Logo - NEW */}
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col items-center gap-1">
             <img
               src="https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/nn7tel8o_logoSQR-negatiu-1.png"
               alt="The Squared Room Logo"
               className="h-12 md:h-16"
             />
+            <span className="text-white/70 text-xs tracking-wider">Mettle Program</span>
           </div>
 
           {/* Tagline */}
