@@ -21,11 +21,13 @@ const CoachSection = () => {
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-light text-black mb-6">
               {aboutSection.coachName},
             </h3>
-            <p className="text-xl md:text-2xl lg:text-3xl text-black leading-relaxed mb-12">
-              Me dedico a crear{' '}
-              <span className="font-bold">programaciones y asesorías personalizadas</span>{' '}
-              para deportistas que buscan rendir más en pruebas como{' '}
-              <span className="font-bold">HYROX, DEKA o competiciones de Crosstraining</span>
+            <p className="text-xl md:text-2xl lg:text-3xl text-black leading-relaxed mb-6">
+              {aboutSection.coachDescription}
+            </p>
+            
+            {/* Mettle Program definition */}
+            <p className="text-base md:text-lg text-black/70 italic leading-relaxed mb-12 border-l-4 border-[#2CA5A5] pl-4">
+              {aboutSection.coachMotto}
             </p>
 
             {/* Accordion */}
