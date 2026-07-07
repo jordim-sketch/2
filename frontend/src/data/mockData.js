@@ -44,6 +44,7 @@ export const accordionItems = [
 ];
 
 export const helpItems = [
+  "¿Quieres estar en forma en tu día a día?",
   "Quieres mejorar tus marcas en HYROX o DEKA.",
   "Buscas un plan estructurado sin perder la motivación.",
   "Necesitas equilibrio entre fuerza y cardio.",
@@ -53,7 +54,7 @@ export const helpItems = [
 
 export const hybridSportSection = {
   title: "DEPORTE FUNCIONAL",
-  description: "El entrenamiento funcional combina lo mejor de dos mundos: la fuerza del CrossTraining, el trabajo en sala de pesas y la resistencia del running o del cardio funcional.",
+  description: "El método Mettle Program fusiona la fuerza explosiva del CrossTraining, la resistencia del cardio funcional y la estética del Bodybuilding. El resultado: un cuerpo atlético, resistente y con una presencia física imponente.",
   quote: "Un atleta funcional es capaz de levantar, correr, remar, empujar y resistir — todo con la misma eficacia.",
   bottomText: "No se trata solo de estar en forma. Se trata de ser completo. De dominar tanto el gimnasio como cualquier prueba física. De rendir cuando el cuerpo duele y la mente quiere parar. De ser capaz de TODO.",
   images: [
