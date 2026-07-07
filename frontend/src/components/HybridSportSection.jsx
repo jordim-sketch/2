@@ -12,9 +12,11 @@ const HybridSportSection = () => {
               {hybridSportSection.title}
             </h2>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-8">
-              El <span className="font-bold text-white">entrenamiento funcional</span> combina lo mejor de dos mundos: la{' '}
-              <span className="font-bold text-white">fuerza</span> del CrossTraining y la{' '}
-              <span className="font-bold text-white">resistencia</span> del running o del cardio funcional.
+              El <span className="font-bold text-white">método Mettle Program</span> fusiona la{' '}
+              <span className="font-bold text-white">fuerza explosiva</span> del CrossTraining, la{' '}
+              <span className="font-bold text-white">resistencia</span> del cardio funcional y la{' '}
+              <span className="font-bold text-white">estética</span> del Bodybuilding. El resultado: un cuerpo{' '}
+              <span className="font-bold text-white">atlético, resistente y con una presencia física imponente.</span>
             </p>
             <blockquote className="text-xl md:text-2xl text-[#2CA5A5] italic leading-relaxed mb-8">
               "{hybridSportSection.quote}"
