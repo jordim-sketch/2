@@ -32,7 +32,7 @@ const CoachSection = () => {
 
             {/* Accordion */}
             <div className="space-y-0">
-              <p className="text-black font-bold mb-6">Más cosas sobre mí</p>
+              <p className="text-black font-bold mb-6">Más cosas sobre nosotros</p>
               {accordionItems.map((item, index) => (
                 <div key={item.id} className="border-t border-black/10">
                   <button
@@ -56,7 +56,7 @@ const CoachSection = () => {
                     {/* Help items for coach accordion */}
                     {item.id === 'coach' && (
                       <div className="mt-6">
-                        <p className="font-bold text-black mb-3">Puedo ayudarte si</p>
+                        <p className="font-bold text-black mb-3">Podemos ayudarte si</p>
                         <ul className="space-y-2">
                           {helpItems.map((help, idx) => (
                             <li key={idx} className="text-black/70 flex items-start gap-2">

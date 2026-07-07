@@ -18,10 +18,10 @@ export const heroData = {
 export const aboutSection = {
   title: "THE SQUARED ROOM Mettle Program nació con una idea clara",
   mainText: "cambiar la forma en la que entrenas, compites y entiendes el deporte",
-  coachName: "Coach Jordi",
-  coachTitle: "ATLETA Y COACH FUNCIONAL",
-  coachDescription: "Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining. Un entrenamiento híbrido que consigue un estado donde el rendimiento se traduce en una presencia física imponente y funcional.",
-  coachMotto: "METTLE PROGRAM: coraje, espíritu, temple o valor. Es esa capacidad intrínseca de una persona para afrontar una situación difícil o exigente de la mejor manera posible.",
+  coachName: "The Squared Room",
+  coachTitle: "COACHES EN ENTRENAMIENTO HÍBRIDO Y ESTÉTICA",
+  coachDescription: "Nos dedicamos a crear programaciones y asesorías personalizadas para deportistas que buscan el máximo rendimiento y la excelencia estética. Fusionamos la exigencia de pruebas como HYROX, DEKA o Crosstraining con la precisión y el detalle del Bodybuilding. Un enfoque híbrido diseñado para construir un cuerpo donde el rendimiento real se traduce en una presencia física imponente, fuerte y funcional.",
+  coachMotto: "METTLE PROGRAM: coraje, espíritu, temple o valor. Es esa capacidad intrínseca de una persona para afrontar una situación difícil o exigente de la mejor manera posible. En The Squared Room, el \"mettle\" es el motor de tu transformación física y competitiva.",
   coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
@@ -29,17 +29,17 @@ export const accordionItems = [
   {
     id: "formacion",
     title: "Formación",
-    content: "Cuento con formación como entrenador personal certificado, además de un Máster especializado en Crosstraining que abarca Entrenamiento, Nutrición y Readaptación deportiva. También estoy acreditado como Coach de entrenamiento funcional de alto rendimiento."
+    content: "Contamos con formación como entrenadores personales certificados, además de un Máster especializado en Crosstraining que abarca Entrenamiento, Nutrición y Readaptación deportiva. También estamos acreditados como Coaches de entrenamiento funcional de alto rendimiento."
   },
   {
     id: "filosofia",
     title: "Filosofía de Entrenamiento",
-    content: "Aquí no hay fórmulas mágicas ni atajos. Mi objetivo es guiarte para que entrenes de forma más inteligente, rindas al máximo y superes tus propios límites. Da igual tu punto de partida, cada programación está diseñada para convertirte en alguien más fuerte, más veloz y más completo. Al final del día, se trata de una cosa: evolucionar constantemente."
+    content: "Aquí no hay fórmulas mágicas ni atajos. Nuestro objetivo es guiarte para que entrenes de forma más inteligente, rindas al máximo y superes tus propios límites. Da igual tu punto de partida, cada programación está diseñada para convertirte en alguien más fuerte, más veloz y más completo. Al final del día, se trata de una cosa: evolucionar constantemente."
   },
   {
     id: "coach",
-    title: "Tu coach funcional",
-    content: "Tu guía hacia el siguiente nivel. Me dedico a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining. Mi enfoque es simple: combinar fuerza, resistencia y mentalidad."
+    title: "Tus coaches funcionales",
+    content: "Tu guía hacia el siguiente nivel. Nos dedicamos a crear programaciones y asesorías personalizadas para deportistas que buscan rendir más en pruebas como HYROX, DEKA o competiciones de Crosstraining. Nuestro enfoque es simple: combinar fuerza, resistencia y mentalidad."
   }
 ];
 
@@ -65,7 +65,7 @@ export const hybridSportSection = {
 export const marqueeText = "NO EXCUSES NO LIMITS ";
 
 export const coachPhilosophy = {
-  quote: "Mi enfoque es simple: combinar fuerza, resistencia y mentalidad",
+  quote: "Nuestro enfoque es simple: combinar fuerza, resistencia y mentalidad",
   subtext: "Aquí no hay secretos, solo trabajo, constancia y disciplina",
   image: "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
