@@ -23,34 +23,54 @@ const TransformationsSection = () => {
           </p>
         </div>
 
-        {/* Cases grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Cases grid: 2 cases per row on large screens */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {transformationsSection.cases.map((item, index) => (
             <div
               key={index}
               data-reveal
               data-testid={`transformation-case-${index}`}
               style={{ transitionDelay: `${index * 90}ms` }}
-              className="bg-black overflow-hidden group flex flex-col"
+              className="bg-black overflow-hidden flex flex-col"
             >
-              <div className="relative overflow-hidden">
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="w-full h-[320px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
-                />
-                <span className="absolute top-4 left-4 bg-[#2CA5A5] text-black text-xs font-bold tracking-wider px-3 py-1">
-                  {item.duration}
-                </span>
+              {/* Before / After images */}
+              <div className="grid grid-cols-2 gap-px bg-white/10">
+                <div className="relative overflow-hidden group bg-black">
+                  <img
+                    src={item.beforeImage}
+                    alt={`${item.name} antes`}
+                    className="w-full h-[360px] md:h-[420px] object-cover object-top grayscale group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <span className="absolute top-3 left-3 bg-black/70 text-white text-xs font-bold tracking-widest px-3 py-1">
+                    ANTES
+                  </span>
+                </div>
+                <div className="relative overflow-hidden group bg-black">
+                  <img
+                    src={item.afterImage}
+                    alt={`${item.name} después`}
+                    className="w-full h-[360px] md:h-[420px] object-cover object-top grayscale group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <span className="absolute top-3 left-3 bg-[#2CA5A5] text-black text-xs font-bold tracking-widest px-3 py-1">
+                    DESPUÉS
+                  </span>
+                </div>
               </div>
-              <div className="p-6 flex flex-col gap-4 flex-1">
-                <p className="text-white font-bold text-xl tracking-wide">
-                  {item.name}
-                </p>
-                <p className="text-white/70 text-sm leading-relaxed">
+
+              {/* Info */}
+              <div className="p-6 md:p-8 flex flex-col gap-4 flex-1">
+                <div className="flex items-center justify-between gap-4 flex-wrap">
+                  <p className="text-white font-bold text-2xl tracking-wide">
+                    {item.name}
+                  </p>
+                  <span className="text-[#2CA5A5] text-sm font-bold tracking-wider border border-[#2CA5A5] px-3 py-1">
+                    {item.duration}
+                  </span>
+                </div>
+                <p className="text-white/70 text-base leading-relaxed">
                   {item.goal}
                 </p>
-                <ul className="mt-auto space-y-2">
+                <ul className="mt-auto flex flex-wrap gap-x-6 gap-y-2 pt-2">
                   {item.metrics.map((metric, idx) => (
                     <li
                       key={idx}

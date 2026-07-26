@@ -226,28 +226,32 @@ export const transformationsSection = {
   subtitle: "Historias reales de atletas que confiaron en el Método Mettle. Entrenamiento y nutrición, de la mano.",
   cases: [
     {
-      image: "https://images.unsplash.com/photo-1744551358229-ef84be2f6b6b?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/cd9b444aaa048843a3918e21587ee445e8f33f00b024c9753b3345021e67ede1.jpeg",
+      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/4d9683e7de96623b488017802337028d10df1a7868bd2b30b68079121e7e21c6.jpeg",
       name: "Marc, 32",
       duration: "16 semanas",
       goal: "De sedentario a terminar su primer HYROX",
       metrics: ["-12 kg de grasa", "+5 kg de músculo"]
     },
     {
-      image: "https://images.unsplash.com/photo-1548690312-e3b507d8c110?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/df72e610619bb6d36cc54b29b5054ddb240eacab05b85aa5792a7c63f1365ee2.jpeg",
+      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/986ed84b5a9ec5d3e6bc51332e04f51dbc597d1f08b6263e40971465d446b9c5.jpeg",
       name: "Laura, 28",
       duration: "12 semanas",
       goal: "Recomposición corporal para competir",
       metrics: ["-8% grasa corporal", "Más fuerza y energía"]
     },
     {
-      image: "https://images.unsplash.com/photo-1754475118668-64ac3f3b2559?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/58eb0cbd8438680f5d1aafc8091ca4a0cb2cee3a6741efa0ab046f15cbf345f7.jpeg",
+      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/5d583a093ae0df3c8ca1f9651be8665429f1c14321c0b3706e5cf4baf43d2eb4.jpeg",
       name: "David, 35",
       duration: "20 semanas",
       goal: "Preparación DEKA y definición muscular",
       metrics: ["+30 kg en peso muerto", "Físico competitivo"]
     },
     {
-      image: "https://images.unsplash.com/photo-1708011108850-49646bd34503?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/7e0300dcfb6a77251e18a842c8c94dc2c1a6c2149d08ca848e8931402fee5655.jpeg",
+      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/ea78f26b3ff7ca400f81275b614f16bfb1d49ef5dfcd30ff60b43ba5251fcb7a.jpeg",
       name: "Anna, 30",
       duration: "14 semanas",
       goal: "Fuerza y estética sin perder cardio",
