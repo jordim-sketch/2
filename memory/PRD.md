@@ -23,6 +23,8 @@ Clon pixel-perfect de la web fitness "Hybrid Mamut" adaptado a la marca "The Squ
 - **Mejora 2**: Botón flotante de WhatsApp (bottom-right, pulso animado). (DONE, testeado)
 - **Mejora 3**: Animaciones reveal al hacer scroll en todas las secciones clave (stagger en testimonios). (DONE, testeado)
 - Botones "Contáctame" (CTA y Asesoría Online) ahora llevan a #contacto. (DONE)
+- **Apartado NUTRICIÓN** (id=#nutricion, `NutritionSection.jsx`): fusiona la marca híbrida con coaching nutricional deportivo (inspirado en institute.nutritionalcoaching.com). Banda de imagen B/N, intro, 4 pilares (Combustible para competir, Composición corporal y estética, Cambio de hábitos real, Seguimiento y ajustes), lista de beneficios, cita y CTA a #contacto. (DONE, testeado iteration_4)
+- "Nutrición" añadido como opción del selector Objetivo en el formulario de contacto. (DONE, testeado)
 
 ## Integraciones
 - WhatsApp: wa.me/34694463184 (sin API key, funciona en estático)
