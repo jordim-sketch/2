@@ -21,12 +21,12 @@ const CoachSection = () => {
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-light text-black mb-6">
               {aboutSection.coachName},
             </h3>
-            <p className="text-xl md:text-2xl lg:text-3xl text-black leading-relaxed mb-6">
+            <p className="text-xl md:text-2xl lg:text-3xl text-black leading-relaxed mb-6 text-justify">
               {aboutSection.coachDescription}
             </p>
             
             {/* Mettle Program definition */}
-            <p className="text-base md:text-lg text-black/70 italic leading-relaxed mb-12 border-l-4 border-[#2CA5A5] pl-4">
+            <p className="text-base md:text-lg text-black/70 italic leading-relaxed mb-12 border-l-4 border-[#2CA5A5] pl-4 text-justify">
               {aboutSection.coachMotto}
             </p>
 
@@ -51,7 +51,7 @@ const CoachSection = () => {
                       openAccordion === item.id ? 'max-h-96 pb-5' : 'max-h-0'
                     }`}
                   >
-                    <p className="text-black/70 leading-relaxed">{item.content}</p>
+                    <p className="text-black/70 leading-relaxed text-justify">{item.content}</p>
                     
                     {/* Help items for coach accordion */}
                     {item.id === 'coach' && (

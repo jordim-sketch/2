@@ -30,7 +30,7 @@ const OnlineCoachingSection = () => {
             <p className="text-xl md:text-2xl text-[#2CA5A5] font-medium mb-6">
               {onlineCoaching.subtitle}
             </p>
-            <p className="text-white/70 leading-relaxed mb-10">
+            <p className="text-white/70 leading-relaxed mb-10 text-justify">
               {onlineCoaching.description}
             </p>
 
@@ -58,7 +58,7 @@ const OnlineCoachingSection = () => {
                         openFaq === index ? 'max-h-96 pb-4' : 'max-h-0'
                       }`}
                     >
-                      <p className="text-white/60 text-sm leading-relaxed">
+                      <p className="text-white/60 text-sm leading-relaxed text-justify">
                         {item.answer}
                       </p>
                     </div>

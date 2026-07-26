@@ -30,7 +30,7 @@ const TestimonialsSection = () => {
                   <span className="bg-white px-2 py-1 rounded-full shadow-sm">😊</span>
                 </div>
               </div>
-              <p className="text-black/80 text-sm md:text-base leading-relaxed mb-4">
+              <p className="text-black/80 text-sm md:text-base leading-relaxed mb-4 text-justify">
                 "{item.text}"
               </p>
               <p className="text-black/50 text-sm font-medium">

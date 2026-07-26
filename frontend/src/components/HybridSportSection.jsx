@@ -11,7 +11,7 @@ const HybridSportSection = () => {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 tracking-wide">
               {hybridSportSection.title}
             </h2>
-            <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-8 text-justify">
               El <span className="font-bold text-white">método Mettle Program</span> fusiona la{' '}
               <span className="font-bold text-white">fuerza explosiva</span> del CrossTraining, la{' '}
               <span className="font-bold text-white">resistencia</span> del cardio funcional y la{' '}
@@ -21,7 +21,7 @@ const HybridSportSection = () => {
             <blockquote className="text-xl md:text-2xl text-[#2CA5A5] italic leading-relaxed mb-8">
               "{hybridSportSection.quote}"
             </blockquote>
-            <p className="text-white/70 leading-relaxed">
+            <p className="text-white/70 leading-relaxed text-justify">
               No se trata solo de estar en forma. Se trata de <span className="font-bold text-white">ser completo</span>. 
               De rendir cuando el cuerpo duele y la mente quiere parar. De ser capaz de <span className="font-bold text-white">TODO.</span>
             </p>
