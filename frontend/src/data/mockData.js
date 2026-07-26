@@ -191,15 +191,15 @@ export const resultsSection = {
   title: "EL TRABAJO SE VE, LOS NÚMEROS LO DEMUESTRAN",
   subtitle: "Detrás de cada marca hay constancia, método y acompañamiento. Estos son algunos de los resultados de quienes entrenan con nosotros.",
   stats: [
-    { value: 120, suffix: "+", label: "Atletas entrenados" },
-    { value: 8, suffix: "+", label: "Años de experiencia" },
+    { value: 450, suffix: "+", label: "Atletas entrenados" },
+    { value: 20, suffix: "+", label: "Años de experiencia" },
     { value: 50, suffix: "+", label: "Competiciones disputadas" },
     { value: 95, suffix: "%", label: "Adherencia media" }
   ],
   highlights: [
     {
       image: "https://images.unsplash.com/photo-1758875569136-9936939e6179?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
-      name: "HYROX PRO",
+      name: "ENTRENAMIENTO HÍBRIDO",
       achievement: "Entrenamiento híbrido, mejores marcas"
     },
     {
