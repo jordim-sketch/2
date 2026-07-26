@@ -47,8 +47,8 @@ const CoachSection = () => {
                     )}
                   </button>
                   <div
-                    className={`overflow-hidden transition-all duration-300 ${
-                      openAccordion === item.id ? 'max-h-96 pb-5' : 'max-h-0'
+                    className={`overflow-hidden transition-all duration-500 ${
+                      openAccordion === item.id ? 'max-h-[1500px] pb-5' : 'max-h-0'
                     }`}
                   >
                     <p className="text-black/70 leading-relaxed text-justify">{item.content}</p>
