@@ -27,6 +27,9 @@ Clon pixel-perfect de la web fitness "Hybrid Mamut" adaptado a la marca "The Squ
 - "Nutrición" añadido como opción del selector Objetivo en el formulario de contacto. (DONE, testeado)
 - Fotos B/N en Nutrición: físico definido de gym + corredor (gymImage/runImage en mockData). (DONE)
 - Mensaje "entrenamiento + nutrición van de la mano" integrado desde el inicio: línea "ENTRENAMIENTO + NUTRICIÓN" en Hero, "entrenas, comes, compites" en About, y descripción del coach incluye planes de nutrición. (DONE)
+- **Sección RESULTADOS** (id=#resultados, `ResultsSection.jsx`): contadores animados (120+ atletas, 8+ años, 50+ competiciones, 95% adherencia) + 3 tarjetas con fotos reales (galleryImages) y logros. Valores/textos son PLACEHOLDER editables en mockData.resultsSection. (DONE, testeado iteration_5)
+- **SEO básico** en `public/index.html`: title, meta description, keywords, canonical, lang=es, Open Graph, Twitter Card, JSON-LD (HealthAndBeautyBusiness), favicon = logoSQR. (DONE, testeado)
+  - NOTA: cambios en public/index.html requieren `sudo supervisorctl restart frontend` (CRA cachea el HTML shell).
 
 ## Integraciones
 - WhatsApp: wa.me/34694463184 (sin API key, funciona en estático)
