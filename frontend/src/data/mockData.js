@@ -198,17 +198,17 @@ export const resultsSection = {
   ],
   highlights: [
     {
-      image: galleryImages[0],
+      image: "https://images.unsplash.com/photo-1758875569136-9936939e6179?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       name: "HYROX PRO",
       achievement: "-9 min en el crono en 12 semanas"
     },
     {
-      image: galleryImages[1],
+      image: "https://images.unsplash.com/photo-1765045847158-11e23e972bb0?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       name: "COMPOSICIÓN CORPORAL",
       achievement: "+6 kg de masa muscular magra"
     },
     {
-      image: galleryImages[2],
+      image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       name: "CROSSTRAINING",
       achievement: "Clasificación a competición nacional"
     }
