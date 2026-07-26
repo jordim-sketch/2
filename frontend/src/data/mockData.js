@@ -219,3 +219,39 @@ export const ctaSection = {
   title: "Entrena como un atleta funcional",
   buttonText: "Contáctame"
 };
+
+export const transformationsSection = {
+  label: "CASOS REALES",
+  title: "TRANSFORMACIONES QUE HABLAN POR SÍ SOLAS",
+  subtitle: "Historias reales de atletas que confiaron en el Método Mettle. Entrenamiento y nutrición, de la mano.",
+  cases: [
+    {
+      image: "https://images.unsplash.com/photo-1744551358229-ef84be2f6b6b?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      name: "Marc, 32",
+      duration: "16 semanas",
+      goal: "De sedentario a terminar su primer HYROX",
+      metrics: ["-12 kg de grasa", "+5 kg de músculo"]
+    },
+    {
+      image: "https://images.unsplash.com/photo-1548690312-e3b507d8c110?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      name: "Laura, 28",
+      duration: "12 semanas",
+      goal: "Recomposición corporal para competir",
+      metrics: ["-8% grasa corporal", "Más fuerza y energía"]
+    },
+    {
+      image: "https://images.unsplash.com/photo-1754475118668-64ac3f3b2559?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      name: "David, 35",
+      duration: "20 semanas",
+      goal: "Preparación DEKA y definición muscular",
+      metrics: ["+30 kg en peso muerto", "Físico competitivo"]
+    },
+    {
+      image: "https://images.unsplash.com/photo-1708011108850-49646bd34503?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      name: "Anna, 30",
+      duration: "14 semanas",
+      goal: "Fuerza y estética sin perder cardio",
+      metrics: ["+4 kg de músculo magro", "Mejores marcas"]
+    }
+  ]
+};

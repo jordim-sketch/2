@@ -12,6 +12,7 @@ import NutritionSection from "./components/NutritionSection";
 import CTASection from "./components/CTASection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import ResultsSection from "./components/ResultsSection";
+import TransformationsSection from "./components/TransformationsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -34,6 +35,7 @@ function App() {
         <NutritionSection />
         <CTASection />
         <ResultsSection />
+        <TransformationsSection />
         <TestimonialsSection />
         <ContactSection />
       </main>
