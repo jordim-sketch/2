@@ -29,16 +29,20 @@ const HybridSportSection = () => {
 
           {/* Right Images */}
           <div data-reveal className="grid grid-cols-1 gap-6">
-            <img
-              src={hybridSportSection.images[0]}
-              alt="Athlete training"
-              className="w-full h-[300px] md:h-[400px] object-cover grayscale"
-            />
-            <img
-              src={hybridSportSection.images[1]}
-              alt="Athlete workout"
-              className="w-full h-[300px] md:h-[400px] object-cover grayscale"
-            />
+            <div className="overflow-hidden group">
+              <img
+                src={hybridSportSection.images[0]}
+                alt="Athlete training"
+                className="w-full h-[300px] md:h-[400px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
+              />
+            </div>
+            <div className="overflow-hidden group">
+              <img
+                src={hybridSportSection.images[1]}
+                alt="Athlete workout"
+                className="w-full h-[300px] md:h-[400px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
+              />
+            </div>
           </div>
         </div>
       </div>

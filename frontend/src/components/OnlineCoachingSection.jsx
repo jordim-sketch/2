@@ -14,11 +14,11 @@ const OnlineCoachingSection = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left - Image */}
-          <div data-reveal>
+          <div data-reveal className="overflow-hidden group">
             <img
               src={onlineCoaching.image}
               alt="Online coaching"
-              className="w-full h-[400px] md:h-[600px] object-cover grayscale"
+              className="w-full h-[400px] md:h-[600px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
             />
           </div>
 

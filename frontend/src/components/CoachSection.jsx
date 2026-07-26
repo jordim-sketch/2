@@ -77,11 +77,11 @@ const CoachSection = () => {
           </div>
 
           {/* Right Image */}
-          <div data-reveal className="relative">
+          <div data-reveal className="relative overflow-hidden group">
             <img
               src={aboutSection.coachImage}
               alt="Coach"
-              className="w-full h-[500px] md:h-[700px] object-cover grayscale"
+              className="w-full h-[500px] md:h-[700px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
             />
           </div>
         </div>

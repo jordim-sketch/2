@@ -17,11 +17,11 @@ const PhilosophySection = () => {
           </div>
 
           {/* Right - Image */}
-          <div data-reveal>
+          <div data-reveal className="overflow-hidden group">
             <img
               src={coachPhilosophy.image}
               alt="Coach philosophy"
-              className="w-full h-[400px] md:h-[500px] object-cover grayscale"
+              className="w-full h-[400px] md:h-[500px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
             />
           </div>
         </div>
