@@ -205,7 +205,7 @@ export const resultsSection = {
     {
       image: "https://images.unsplash.com/photo-1572459815549-873917ec8c0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       name: "COMPOSICIÓN CORPORAL",
-      achievement: "+6 kg de masa muscular magra"
+      achievement: "Más masa muscular"
     },
     {
       image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
