@@ -11,6 +11,7 @@ import OnlineCoachingSection from "./components/OnlineCoachingSection";
 import NutritionSection from "./components/NutritionSection";
 import CTASection from "./components/CTASection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import ResultsSection from "./components/ResultsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -32,6 +33,7 @@ function App() {
         <OnlineCoachingSection />
         <NutritionSection />
         <CTASection />
+        <ResultsSection />
         <TestimonialsSection />
         <ContactSection />
       </main>

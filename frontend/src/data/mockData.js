@@ -186,6 +186,35 @@ export const galleryImages = [
   "https://customer-assets.emergentagent.com/job_69d6182e-0901-40a7-b5dc-716b1c23fbc7/artifacts/omqm1m4k_theSQR_FittestPics_8.JPG"
 ];
 
+export const resultsSection = {
+  label: "RESULTADOS REALES",
+  title: "EL TRABAJO SE VE, LOS NÚMEROS LO DEMUESTRAN",
+  subtitle: "Detrás de cada marca hay constancia, método y acompañamiento. Estos son algunos de los resultados de quienes entrenan con nosotros.",
+  stats: [
+    { value: 120, suffix: "+", label: "Atletas entrenados" },
+    { value: 8, suffix: "+", label: "Años de experiencia" },
+    { value: 50, suffix: "+", label: "Competiciones disputadas" },
+    { value: 95, suffix: "%", label: "Adherencia media" }
+  ],
+  highlights: [
+    {
+      image: galleryImages[0],
+      name: "HYROX PRO",
+      achievement: "-9 min en el crono en 12 semanas"
+    },
+    {
+      image: galleryImages[1],
+      name: "COMPOSICIÓN CORPORAL",
+      achievement: "+6 kg de masa muscular magra"
+    },
+    {
+      image: galleryImages[2],
+      name: "CROSSTRAINING",
+      achievement: "Clasificación a competición nacional"
+    }
+  ]
+};
+
 export const ctaSection = {
   title: "Entrena como un atleta funcional",
   buttonText: "Contáctame"
