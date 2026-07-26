@@ -7,7 +7,7 @@ const HybridSportSection = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
-          <div>
+          <div data-reveal>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 tracking-wide">
               {hybridSportSection.title}
             </h2>
@@ -28,7 +28,7 @@ const HybridSportSection = () => {
           </div>
 
           {/* Right Images */}
-          <div className="grid grid-cols-1 gap-6">
+          <div data-reveal className="grid grid-cols-1 gap-6">
             <img
               src={hybridSportSection.images[0]}
               alt="Athlete training"

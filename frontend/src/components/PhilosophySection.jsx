@@ -7,7 +7,7 @@ const PhilosophySection = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left - Quote */}
-          <div>
+          <div data-reveal>
             <blockquote className="text-2xl md:text-3xl lg:text-4xl text-black italic leading-relaxed mb-6">
               "{coachPhilosophy.quote}"
             </blockquote>
@@ -17,7 +17,7 @@ const PhilosophySection = () => {
           </div>
 
           {/* Right - Image */}
-          <div>
+          <div data-reveal>
             <img
               src={coachPhilosophy.image}
               alt="Coach philosophy"

@@ -14,7 +14,7 @@ const CoachSection = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Left Content */}
-          <div>
+          <div data-reveal>
             <p className="text-[#2CA5A5] font-bold tracking-wider mb-2">
               {aboutSection.coachTitle}
             </p>
@@ -77,7 +77,7 @@ const CoachSection = () => {
           </div>
 
           {/* Right Image */}
-          <div className="relative">
+          <div data-reveal className="relative">
             <img
               src={aboutSection.coachImage}
               alt="Coach"

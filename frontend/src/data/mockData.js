@@ -6,7 +6,15 @@ export const siteConfig = {
   instagram: "@THESQRLLEIDA",
   instagramUrl: "https://www.instagram.com/thesqrlleida/",
   spotifyPlaylist: "SQUARED PLAYLIST",
-  spotifyUrl: "https://open.spotify.com/playlist/3MlyKMPdRax5RgjAxdPgzk?si=ONWurtvqSau2--eraaVXHw"
+  spotifyUrl: "https://open.spotify.com/playlist/3MlyKMPdRax5RgjAxdPgzk?si=ONWurtvqSau2--eraaVXHw",
+  whatsapp: "34694463184",
+  whatsappDisplay: "+34 694 463 184"
+};
+
+export const contactSection = {
+  title: "Empieza tu transformación",
+  subtitle: "Cuéntanos tu objetivo y te responderemos por WhatsApp con el siguiente paso.",
+  objectives: ["HYROX", "DEKA", "Crosstraining", "Bodybuilding", "Otro"]
 };
 
 export const heroData = {

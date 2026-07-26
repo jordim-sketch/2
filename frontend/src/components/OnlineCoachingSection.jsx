@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { onlineCoaching, faqItems, siteConfig } from '../data/mockData';
+import { onlineCoaching, faqItems } from '../data/mockData';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const OnlineCoachingSection = () => {
@@ -14,7 +14,7 @@ const OnlineCoachingSection = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left - Image */}
-          <div>
+          <div data-reveal>
             <img
               src={onlineCoaching.image}
               alt="Online coaching"
@@ -23,7 +23,7 @@ const OnlineCoachingSection = () => {
           </div>
 
           {/* Right - Content */}
-          <div>
+          <div data-reveal>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-wider">
               {onlineCoaching.title}
             </h3>
@@ -69,9 +69,7 @@ const OnlineCoachingSection = () => {
 
             {/* CTA Button */}
             <a
-              href={siteConfig.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contacto"
               className="inline-block bg-[#2CA5A5] text-black font-bold px-8 py-4 text-sm tracking-wider hover:bg-[#248888] transition-colors"
             >
               Contáctame

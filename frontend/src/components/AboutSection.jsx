@@ -12,7 +12,7 @@ const AboutSection = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black" />
         
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6">
+        <div data-reveal className="absolute inset-0 flex flex-col justify-center items-center text-center px-6">
           <p className="text-white/80 text-lg md:text-xl mb-4">
             <span className="font-bold text-white">THE SQUARED ROOM</span>{' '}
             <span className="text-white">Mettle Program</span> nació con{' '}

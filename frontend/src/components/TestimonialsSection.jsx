@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
     <section className="bg-white py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div data-reveal className="text-center mb-16">
           <p className="text-lg md:text-xl text-black/70 mb-4">¿Una motivación extra?</p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black leading-tight">
             VUESTRAS EXPERIENCIAS<br />
@@ -20,6 +20,8 @@ const TestimonialsSection = () => {
           {testimonials.items.map((item, index) => (
             <div
               key={index}
+              data-reveal
+              style={{ transitionDelay: `${index * 80}ms` }}
               className="bg-gray-100 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300"
             >
               <div className="flex items-center gap-2 mb-4">
