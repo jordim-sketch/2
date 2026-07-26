@@ -41,6 +41,34 @@ const NutritionSection = () => {
           {nutritionSection.intro}
         </p>
 
+        {/* Two-image band: gym physique + running */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-20">
+          <div data-reveal className="relative overflow-hidden group">
+            <img
+              src={nutritionSection.gymImage}
+              alt="Físico definido de gimnasio"
+              className="w-full h-[380px] md:h-[520px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
+            />
+            <span className="absolute bottom-4 left-4 text-white font-bold tracking-widest text-sm bg-black/50 px-3 py-1">
+              FUERZA · ESTÉTICA
+            </span>
+          </div>
+          <div
+            data-reveal
+            style={{ transitionDelay: '120ms' }}
+            className="relative overflow-hidden group"
+          >
+            <img
+              src={nutritionSection.runImage}
+              alt="Atleta corriendo"
+              className="w-full h-[380px] md:h-[520px] object-cover grayscale group-hover:scale-105 transition-transform duration-700"
+            />
+            <span className="absolute bottom-4 left-4 text-white font-bold tracking-widest text-sm bg-black/50 px-3 py-1">
+              RESISTENCIA · RENDIMIENTO
+            </span>
+          </div>
+        </div>
+
         {/* Pillars grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 mb-20">
           {nutritionSection.pillars.map((pillar, index) => {

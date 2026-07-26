@@ -22,6 +22,8 @@ export const nutritionSection = {
   title: "NUTRICIÓN QUE POTENCIA TU RENDIMIENTO",
   intro: "El entrenamiento te construye, la nutrición te define. En The Squared Room fusionamos la programación híbrida con el coaching nutricional deportivo: no se trata solo de saber qué comer, sino de conseguir que lo mantengas en el tiempo. Trabajamos el porqué y el para qué de cada cambio para que tu alimentación rinda tanto como tú.",
   image: "https://images.unsplash.com/photo-1667499745120-f9bcef8f584e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+  gymImage: "https://images.unsplash.com/photo-1642267225700-f14262a438aa?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+  runImage: "https://images.unsplash.com/photo-1696536823512-79d724454616?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
   pillars: [
     {
       title: "Combustible para competir",
@@ -53,6 +55,7 @@ export const nutritionSection = {
 export const heroData = {
   name: "THE SQUARED ROOM",
   subtitle: "Mettle Program",
+  motto: "ENTRENAMIENTO + NUTRICIÓN",
   videoUrl: ""
 };
 
@@ -61,7 +64,7 @@ export const aboutSection = {
   mainText: "cambiar la forma en la que entrenas, compites y entiendes el deporte",
   coachName: "The Squared Room",
   coachTitle: "COACHES EN ENTRENAMIENTO HÍBRIDO Y ESTÉTICA",
-  coachDescription: "Nos dedicamos a crear programaciones y asesorías personalizadas para deportistas que buscan el máximo rendimiento y la excelencia estética. Fusionamos la exigencia de pruebas como HYROX, DEKA o Crosstraining con la precisión y el detalle del Bodybuilding. Un enfoque híbrido diseñado para construir un cuerpo donde el rendimiento real se traduce en una presencia física imponente, fuerte y funcional.",
+  coachDescription: "Nos dedicamos a crear programaciones, asesorías y planes de nutrición personalizados para deportistas que buscan el máximo rendimiento y la excelencia estética. Porque el entrenamiento y la nutrición van de la mano: uno te construye y el otro te define. Fusionamos la exigencia de pruebas como HYROX, DEKA o Crosstraining con la precisión y el detalle del Bodybuilding. Un enfoque híbrido diseñado para construir un cuerpo donde el rendimiento real se traduce en una presencia física imponente, fuerte y funcional.",
   coachMotto: "METTLE PROGRAM: coraje, espíritu, temple o valor. Es esa capacidad intrínseca de una persona para afrontar una situación difícil o exigente de la mejor manera posible. En The Squared Room, el \"mettle\" es el motor de tu transformación física y competitiva.",
   coachImage: "https://customer-assets-wrfwihn1.emergentagent.net/job_481c88e2-4209-4b31-9e82-df1e1750504d/artifacts/60kut97r_763D0AB4-3488-41FF-B7D8-320E1F355A8C.png"
 };

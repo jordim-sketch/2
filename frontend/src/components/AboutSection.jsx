@@ -19,7 +19,7 @@ const AboutSection = () => {
             <span className="font-bold text-white">una idea clara</span>
           </p>
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#2CA5A5] leading-tight max-w-5xl">
-            cambiar la forma en la que entrenas, compites y entiendes el deporte
+            cambiar la forma en la que entrenas, comes, compites y entiendes el deporte
           </h2>
         </div>
       </div>

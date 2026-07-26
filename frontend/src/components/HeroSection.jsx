@@ -27,8 +27,13 @@ const HeroSection = () => {
         </h1>
         
         {/* Mettle Program subtitle */}
-        <p className="text-lg md:text-xl lg:text-2xl text-white tracking-widest mb-6">
+        <p className="text-lg md:text-xl lg:text-2xl text-white tracking-widest mb-3">
           {heroData.subtitle}
+        </p>
+
+        {/* Training + Nutrition motto */}
+        <p className="text-sm md:text-base text-[#2CA5A5] tracking-[0.35em] mb-6">
+          {heroData.motto}
         </p>
         
         {/* Be Your Own Hero tagline - DARKER CYAN */}

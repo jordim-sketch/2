@@ -25,6 +25,8 @@ Clon pixel-perfect de la web fitness "Hybrid Mamut" adaptado a la marca "The Squ
 - Botones "Contáctame" (CTA y Asesoría Online) ahora llevan a #contacto. (DONE)
 - **Apartado NUTRICIÓN** (id=#nutricion, `NutritionSection.jsx`): fusiona la marca híbrida con coaching nutricional deportivo (inspirado en institute.nutritionalcoaching.com). Banda de imagen B/N, intro, 4 pilares (Combustible para competir, Composición corporal y estética, Cambio de hábitos real, Seguimiento y ajustes), lista de beneficios, cita y CTA a #contacto. (DONE, testeado iteration_4)
 - "Nutrición" añadido como opción del selector Objetivo en el formulario de contacto. (DONE, testeado)
+- Fotos B/N en Nutrición: físico definido de gym + corredor (gymImage/runImage en mockData). (DONE)
+- Mensaje "entrenamiento + nutrición van de la mano" integrado desde el inicio: línea "ENTRENAMIENTO + NUTRICIÓN" en Hero, "entrenas, comes, compites" en About, y descripción del coach incluye planes de nutrición. (DONE)
 
 ## Integraciones
 - WhatsApp: wa.me/34694463184 (sin API key, funciona en estático)
