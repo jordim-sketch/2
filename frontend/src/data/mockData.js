@@ -231,7 +231,7 @@ export const transformationsSection = {
       name: "Marc, 32",
       duration: "16 semanas",
       goal: "De sedentario a terminar su primer HYROX",
-      metrics: ["-12 kg de grasa", "+5 kg de músculo"]
+      metrics: ["+4 kg de masa magra", "-5 kg de grasa"]
     },
     {
       beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/df72e610619bb6d36cc54b29b5054ddb240eacab05b85aa5792a7c63f1365ee2.jpeg",
