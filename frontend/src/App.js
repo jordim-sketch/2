@@ -8,6 +8,7 @@ import MarqueeSection from "./components/MarqueeSection";
 import HybridSportSection from "./components/HybridSportSection";
 import PhilosophySection from "./components/PhilosophySection";
 import OnlineCoachingSection from "./components/OnlineCoachingSection";
+import NutritionSection from "./components/NutritionSection";
 import CTASection from "./components/CTASection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import ContactSection from "./components/ContactSection";
@@ -29,6 +30,7 @@ function App() {
         <HybridSportSection />
         <PhilosophySection />
         <OnlineCoachingSection />
+        <NutritionSection />
         <CTASection />
         <TestimonialsSection />
         <ContactSection />

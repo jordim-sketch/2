@@ -14,7 +14,40 @@ export const siteConfig = {
 export const contactSection = {
   title: "Empieza tu transformación",
   subtitle: "Cuéntanos tu objetivo y te responderemos por WhatsApp con el siguiente paso.",
-  objectives: ["HYROX", "DEKA", "Crosstraining", "Bodybuilding", "Otro"]
+  objectives: ["HYROX", "DEKA", "Crosstraining", "Bodybuilding", "Nutrición", "Otro"]
+};
+
+export const nutritionSection = {
+  label: "MÉTODO METTLE",
+  title: "NUTRICIÓN QUE POTENCIA TU RENDIMIENTO",
+  intro: "El entrenamiento te construye, la nutrición te define. En The Squared Room fusionamos la programación híbrida con el coaching nutricional deportivo: no se trata solo de saber qué comer, sino de conseguir que lo mantengas en el tiempo. Trabajamos el porqué y el para qué de cada cambio para que tu alimentación rinda tanto como tú.",
+  image: "https://images.unsplash.com/photo-1667499745120-f9bcef8f584e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+  pillars: [
+    {
+      title: "Combustible para competir",
+      description: "Estrategias de alimentación e hidratación específicas para rendir en HYROX, DEKA y Crosstraining, dentro y fuera de la competición."
+    },
+    {
+      title: "Composición corporal y estética",
+      description: "Ajustamos tu ingesta para ganar masa muscular magra y definición, con la precisión del Bodybuilding y sin perder rendimiento."
+    },
+    {
+      title: "Cambio de hábitos real",
+      description: "Nada de dietas milagro. Objetivos realistas, pequeños cambios progresivos y trabajo sobre tu motivación para lograr adherencia de verdad."
+    },
+    {
+      title: "Seguimiento y ajustes",
+      description: "Registros sencillos, marcadores de progreso y revisión continua. Adaptamos el plan a tu entorno, tus viajes y tu día a día."
+    }
+  ],
+  benefits: [
+    "Mejora la adherencia a tu plan nutricional",
+    "Optimiza tu rendimiento deportivo",
+    "Reduce la frustración y el abandono",
+    "Cuida tu salud a largo plazo"
+  ],
+  quote: "El éxito no está en diseñar la dieta perfecta, sino en lograr que se mantenga en el tiempo.",
+  ctaText: "Quiero mi plan nutricional"
 };
 
 export const heroData = {
