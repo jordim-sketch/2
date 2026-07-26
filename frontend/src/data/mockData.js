@@ -226,8 +226,8 @@ export const transformationsSection = {
   subtitle: "Historias reales de atletas que confiaron en el Método Mettle. Entrenamiento y nutrición, de la mano.",
   cases: [
     {
-      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/cd9b444aaa048843a3918e21587ee445e8f33f00b024c9753b3345021e67ede1.jpeg",
-      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/4d9683e7de96623b488017802337028d10df1a7868bd2b30b68079121e7e21c6.jpeg",
+      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/12d9cc1dc7165e52faa4dd7d03395a5d79a580e2e43820836d5ae1113cdf1b1c.jpeg",
+      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/790083ae34d5eaeed56442d107327d51662e58d7298b8f2f4cd6916e32025c80.jpeg",
       name: "Marc, 32",
       duration: "16 semanas",
       goal: "De sedentario a terminar su primer HYROX",
@@ -242,8 +242,8 @@ export const transformationsSection = {
       metrics: ["-8% grasa corporal", "Más fuerza y energía"]
     },
     {
-      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/58eb0cbd8438680f5d1aafc8091ca4a0cb2cee3a6741efa0ab046f15cbf345f7.jpeg",
-      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/5d583a093ae0df3c8ca1f9651be8665429f1c14321c0b3706e5cf4baf43d2eb4.jpeg",
+      beforeImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/5a9ba7fcc5905e8fd27e9b62d55c2f1927c99ffe53fdf51db80016aedc7ce93b.jpeg",
+      afterImage: "https://static.prod-images.emergentagent.com/jobs/481c88e2-4209-4b31-9e82-df1e1750504d/images/c6df1f349390e67437f4cfb8cf5db9375b2f730742a1669e1eb0d5e0c51ea7e9.jpeg",
       name: "David, 35",
       duration: "20 semanas",
       goal: "Preparación DEKA y definición muscular",
