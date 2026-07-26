@@ -22,7 +22,7 @@ export const aboutSection = {
   coachTitle: "COACHES EN ENTRENAMIENTO HÍBRIDO Y ESTÉTICA",
   coachDescription: "Nos dedicamos a crear programaciones y asesorías personalizadas para deportistas que buscan el máximo rendimiento y la excelencia estética. Fusionamos la exigencia de pruebas como HYROX, DEKA o Crosstraining con la precisión y el detalle del Bodybuilding. Un enfoque híbrido diseñado para construir un cuerpo donde el rendimiento real se traduce en una presencia física imponente, fuerte y funcional.",
   coachMotto: "METTLE PROGRAM: coraje, espíritu, temple o valor. Es esa capacidad intrínseca de una persona para afrontar una situación difícil o exigente de la mejor manera posible. En The Squared Room, el \"mettle\" es el motor de tu transformación física y competitiva.",
-  coachImage: "https://images.pexels.com/photos/6456300/pexels-photo-6456300.jpeg?auto=compress&cs=tinysrgb&w=800"
+  coachImage: "https://customer-assets-wrfwihn1.emergentagent.net/job_481c88e2-4209-4b31-9e82-df1e1750504d/artifacts/60kut97r_763D0AB4-3488-41FF-B7D8-320E1F355A8C.png"
 };
 
 export const accordionItems = [
