@@ -200,10 +200,10 @@ export const resultsSection = {
     {
       image: "https://images.unsplash.com/photo-1758875569136-9936939e6179?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       name: "HYROX PRO",
-      achievement: "-9 min en el crono en 12 semanas"
+      achievement: "Entrenamiento híbrido, mejores marcas"
     },
     {
-      image: "https://images.unsplash.com/photo-1765045847158-11e23e972bb0?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      image: "https://images.unsplash.com/photo-1572459815549-873917ec8c0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       name: "COMPOSICIÓN CORPORAL",
       achievement: "+6 kg de masa muscular magra"
     },
