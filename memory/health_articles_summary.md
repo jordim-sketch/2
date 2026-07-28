@@ -28,3 +28,23 @@ Contenido educativo/filosófico en español, denso, con enfoque en luz + ritmos 
 ## Pendiente
 - Esperar más archivos del usuario.
 - Decidir con el usuario cómo integrarlos (sección Blog/Conocimiento, filosofía Mettle, etc.).
+
+## Archivos recibidos (tanda 2 - 5 docs)
+
+6. **Un gran artículo sobre el grounding... (13 junio 2025).docx**
+   - Estudio sobre grounding/earthing y bioenergética mitocondrial. Conectar a tierra las mitocondrias: +5-11% producción de ATP, -22-33% de ROS (radicales libres), ligera bajada del potencial de membrana. La Tierra actúa como "tampón redox". Base científica del caminar descalzo.
+
+7. **Deuterio, el Hidrógeno Clave.pdf**
+   - El deuterio (isótopo del hidrógeno) como "tóxico mitocondrial" cuando se acumula: atasca la ATP sintasa. Dieta industrial y ultraprocesados elevan deuterio; grasas naturales lo bajan. Estrategias: dieta cetogénica, ayuno, sol, grounding, agua sin deuterio (DDW). Vínculo con enfermedades crónicas/cáncer.
+
+8. **Webinar 14 Callo Solar.docx** ("La Reivindicación de la Naturaleza: Medicina Descentralizada y Biofísica")
+   - Crítica a la medicina bioquímica reduccionista; propone medicina biofísica basada en 4 pilares: Luz (roja/infrarroja), Agua (estructurada), Magnetismo (grounding) + Nutrición y Movimiento. Rebate narrativas sobre cáncer (voltaje de membrana), colesterol/estatinas y exposición solar (melanina como semiconductor). Menciona protocolo VitalSync 90D.
+
+9. **Salud hormonal mujer.pdf** (webinario)
+   - Salud hormonal femenina ligada a ciclos circadianos, luz (daño de la luz azul), nutrición y reconexión con la naturaleza. Equilibrio hormonal para fertilidad y bienestar. Principios aplicables también a hombres.
+
+10. **Webinario 23 Los 10 hábitos.docx** (inspirado en Gurdjieff)
+   - Jerarquía de 10 hábitos para la salud integral, en orden:
+     1) Digestión de los 3 alimentos (comida, aire, impresiones), 2) Exposición al clima (sol/frío), 3) Días brillantes / noches oscuras, 4) Grounding, 5) ¿Cuándo como? (timing > contenido), 6) Agua de calidad/estructurada, 7) Protección electromagnética, 8) Alimentación (natural, proteína, grasas, DHA), 9) Ejercicio funcional según ritmos circadianos, 10) Educación y entorno social/tribu.
+
+## Total recibido: 10 documentos (tanda 1 + tanda 2). El usuario puede subir más.
