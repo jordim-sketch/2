@@ -48,3 +48,22 @@ Contenido educativo/filosófico en español, denso, con enfoque en luz + ritmos 
      1) Digestión de los 3 alimentos (comida, aire, impresiones), 2) Exposición al clima (sol/frío), 3) Días brillantes / noches oscuras, 4) Grounding, 5) ¿Cuándo como? (timing > contenido), 6) Agua de calidad/estructurada, 7) Protección electromagnética, 8) Alimentación (natural, proteína, grasas, DHA), 9) Ejercicio funcional según ritmos circadianos, 10) Educación y entorno social/tribu.
 
 ## Total recibido: 10 documentos (tanda 1 + tanda 2). El usuario puede subir más.
+
+## Archivos recibidos (tanda 3 - 5 docs)
+
+11. **39-LAS-IMPRESIONES-Y-SU-VIDA-MECANICA-LOS-3-ALIMENTOS.pdf** (Gurdjieff)
+   - El ser humano como "fábrica de 3 pisos" nutrida por 3 alimentos: comida, aire e impresiones. Las impresiones (visuales/sonoras/olfativas) no tienen transformación automática; la observación consciente de sí mismo transforma las reacciones mecánicas en energía para la conciencia. Enfoque de autoconocimiento ("el Trabajo").
+
+12. **Webinar 5 - Agua biológica, agua estructurada.docx**
+   - Hidratación óptima ligada a calidad/estructura del agua, luz solar y protección frente a radiación artificial. Agua producida en las mitocondrias, agua estructurada (EZ) que almacena información, magnetoreceptividad, rol de las grasas en agua metabólica. Menciona Spiro.
+
+13. **Exposición al FRÍO.docx** (con marco Gurdjieff/vibración)
+   - La vida como vibración y resonancia; el humano "extranjero" desconectado de la naturaleza. La comodidad/climatización moderna debilita. El frío + luz UV como herramientas de salud, resiliencia y rendimiento (ejemplos: Sherpas, deportistas como Phelps/Armstrong, termogénesis por frío).
+
+14. **Los 3 Tipos de Alimento.docx** (Gurdjieff)
+   - Versión enfocada: los 3 alimentos = comida ordinaria (cuerpo), aire (emocional/energético) e impresiones (mente/conciencia). Salud = equilibrio consciente cuerpo-emociones-mente. Prácticas: respiración, sol matutino.
+
+15. **Los factores antinutricionales.docx**
+   - Antinutrientes en vegetales (cereales/legumbres): inhibidores de proteasas y sobre todo fitatos (ácido fítico) que secuestran minerales como el zinc, reduciendo su biodisponibilidad. Defiende dieta de origen animal (marisco, pescado, carnes, vísceras, huevos) como fuente óptima sin antinutrientes. Tono crítico con recomendaciones oficiales pro-vegetales.
+
+## Total recibido: 15 documentos (tandas 1+2+3). El usuario puede subir más. Uso probable: sección Blog/Conocimiento.
