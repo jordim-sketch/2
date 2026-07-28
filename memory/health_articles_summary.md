@@ -67,3 +67,28 @@ Contenido educativo/filosófico en español, denso, con enfoque en luz + ritmos 
    - Antinutrientes en vegetales (cereales/legumbres): inhibidores de proteasas y sobre todo fitatos (ácido fítico) que secuestran minerales como el zinc, reduciendo su biodisponibilidad. Defiende dieta de origen animal (marisco, pescado, carnes, vísceras, huevos) como fuente óptima sin antinutrientes. Tono crítico con recomendaciones oficiales pro-vegetales.
 
 ## Total recibido: 15 documentos (tandas 1+2+3). El usuario puede subir más. Uso probable: sección Blog/Conocimiento.
+
+## Archivos recibidos (tanda 4 - 2 docs)
+
+16. **Resumen Ambiente de luz 1.pdf**
+   - La luz natural como reguladora de la biología y la evolución (DHA, melanina). La luz artificial (azul, LEDs) rompe los ritmos circadianos, reduce melatonina/autofagia y se vincula a enfermedades crónicas (cardiovascular, cáncer, obesidad, Alzheimer). Clave: maximizar luz natural (roja/infrarroja) y reducir luz azul de noche.
+
+17. **Guía rápida de respiración.docx**  ← incluye protocolos propios de The Squared Room
+   - Protocolos de respiración de "The Squared Room":
+     • Relajación/descanso: inhala 4 – espera 7 – exhala 8
+     • Calma y claridad (Box Breathing): 4-4-4-4
+     • Reducir hambre/antojos: inhala 4 – exhala 6 – aguanta 5-10s
+   - **Método Wim Hof**: 30-40 respiraciones profundas y rápidas + retención tras exhalar + inhalación de recuperación; combinado con frío y concentración. (El usuario lo marcó como MUY importante.)
+
+## Total recibido: 17 documentos (tandas 1-4).
+
+## ESTRATEGIA DE INTEGRACIÓN EN LA WEB (petición del usuario)
+El usuario quiere introducir la FILOSOFÍA de todos estos archivos de forma SUTIL en la web, sin espantar clientes (el mensaje "lo más importante no es entrenar ni la nutrición" no vende directamente). 
+- Idea central a transmitir: **todo se regula por los ritmos circadianos / un reloj interno**; si ese reloj no está bien regulado, por mucho que entrenes no funciona. "The Squared Room te enseña a usar todo esto."
+- Ejemplos de mensajes sutiles pedidos por el usuario:
+  • "Cuándo comer es más importante que qué comer" / por qué las calorías no se cuentan.
+  • El reloj interno que lo regula todo; si está desajustado, el entrenamiento no rinde.
+  • Luz, frío, sol, descanso, agua, respiración como pilares que potencian entrenamiento+nutrición.
+  • Método de respiración Wim Hof (MUY importante) + protocolos de respiración propios.
+- Tono: sutil, aspiracional, integrado con la marca Mettle. NO dogmático ni conspiranoico.
+- Pendiente: el agente propuso un resumen corto (sección tipo "El Método Mettle / Más allá del entrenamiento") + microcopys sutiles repartidos. Esperando validación del usuario antes de implementar.
