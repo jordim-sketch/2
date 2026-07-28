@@ -210,7 +210,7 @@ export const resultsSection = {
     {
       image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
       name: "CROSSTRAINING",
-      achievement: "Clasificación a competición nacional"
+      achievement: "Rendimiento físico real, funcional y transferible al día a día."
     }
   ]
 };
