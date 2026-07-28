@@ -92,3 +92,13 @@ El usuario quiere introducir la FILOSOFÍA de todos estos archivos de forma SUTI
   • Método de respiración Wim Hof (MUY importante) + protocolos de respiración propios.
 - Tono: sutil, aspiracional, integrado con la marca Mettle. NO dogmático ni conspiranoico.
 - Pendiente: el agente propuso un resumen corto (sección tipo "El Método Mettle / Más allá del entrenamiento") + microcopys sutiles repartidos. Esperando validación del usuario antes de implementar.
+
+## IMPLEMENTADO: Sección "El Método Mettle" (jun 2026)
+- `MethodSection.jsx` (id=#metodo), colocada entre CoachSection y MarqueeSection.
+- Manifiesto sutil: "todo lo regula tu reloj interno; no contamos calorías, ordenamos tu reloj". Cierre: "Primero sincronizamos. Después, te hacemos imparable."
+- 6 pilares con iconos: Luz solar, Descanso, Frío, Respiración, Cuándo comes, Entrenamiento.
+- Bloque de Respiración (breathingSection): 3 protocolos propios (4-7-8, Box Breathing 4-4-4-4, 4-6+retención) + Método Wim Hof destacado ("NUESTRO FAVORITO").
+- CTA "Quiero aprender el Método" → #contacto.
+- Datos en mockData.methodSection y mockData.breathingSection.
+- Verificado testing_agent iteration_6 (100%). Mejora: threshold del scroll-reveal bajado a 0.01 para elementos muy altos.
+- Uso de los 17 docs: la filosofía se integró de forma sutil aquí. Los artículos completos (sección Blog) siguen pendientes/opcionales.
