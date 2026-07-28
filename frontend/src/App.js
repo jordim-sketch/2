@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import CoachSection from "./components/CoachSection";
+import MethodSection from "./components/MethodSection";
 import MarqueeSection from "./components/MarqueeSection";
 import HybridSportSection from "./components/HybridSportSection";
 import PhilosophySection from "./components/PhilosophySection";
@@ -28,6 +29,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <CoachSection />
+        <MethodSection />
         <MarqueeSection />
         <HybridSportSection />
         <PhilosophySection />

@@ -109,6 +109,42 @@ export const hybridSportSection = {
 
 export const marqueeText = "NO EXCUSES NO LIMITS ";
 
+export const methodSection = {
+  label: "EL MÉTODO METTLE",
+  title: "MÁS QUE ENTRENAR",
+  image: "https://images.pexels.com/photos/10159989/pexels-photo-10159989.jpeg",
+  manifesto: [
+    "Puedes entrenar duro y comer perfecto… y aun así no avanzar. ¿Por qué? Porque tu cuerpo funciona con un reloj interno.",
+    "Cuando ese reloj está desajustado —poca luz natural, pantallas de noche, mal descanso, comer a deshoras— tu metabolismo se apaga y el esfuerzo no cuaja.",
+    "Aquí no contamos calorías: ordenamos tu reloj. Sobre esa base, el entrenamiento y la nutrición por fin rinden al máximo."
+  ],
+  highlight: "Primero sincronizamos. Después, te hacemos imparable.",
+  pillars: [
+    { icon: "sun", title: "Luz solar", text: "La luz del sol regula tu energía y tus hormonas mejor que cualquier suplemento." },
+    { icon: "moon", title: "Descanso", text: "Sin un descanso profundo y una noche oscura de verdad, no hay recuperación ni progreso." },
+    { icon: "snowflake", title: "Frío", text: "La exposición al frío enciende tu metabolismo y forja tu resiliencia." },
+    { icon: "wind", title: "Respiración", text: "Aprende a respirar para rendir más, recuperarte antes y dominar el estrés." },
+    { icon: "clock", title: "Cuándo comes", text: "Cuándo comes importa más que qué comes. Ordenamos tu ritmo, no tus calorías." },
+    { icon: "dumbbell", title: "Entrenamiento", text: "El entrenamiento explota todo su potencial cuando lo anterior está en su sitio." }
+  ]
+};
+
+export const breathingSection = {
+  label: "RESPIRACIÓN",
+  title: "RESPIRA COMO UN ATLETA",
+  intro: "La respiración es la herramienta más rápida y potente para cambiar tu estado: calma, foco, energía o recuperación. Estos son nuestros protocolos.",
+  protocols: [
+    { name: "Relajación y descanso", pattern: "Inhala 4 · Retén 7 · Exhala 8", benefit: "Baja el estrés y prepara el cuerpo para dormir." },
+    { name: "Calma y claridad mental", pattern: "Inhala 4 · Retén 4 · Exhala 4 · Retén 4", benefit: "Box Breathing: enfoque y control antes de entrenar o competir." },
+    { name: "Reducir hambre y antojos", pattern: "Inhala 4 · Exhala 6 · Retén 5-10s", benefit: "Ayuda a controlar la ansiedad por comer." }
+  ],
+  wimHof: {
+    name: "Método Wim Hof",
+    description: "30-40 respiraciones profundas y rápidas, retención tras exhalar y una inhalación de recuperación. Combinado con frío y concentración, dispara tu energía, tu sistema inmune y tu resistencia mental.",
+    tag: "NUESTRO FAVORITO"
+  }
+};
+
 export const coachPhilosophy = {
   quote: "Nuestro enfoque es simple: combinar fuerza, resistencia y mentalidad",
   subtext: "Aquí no hay secretos, solo trabajo, constancia y disciplina",
