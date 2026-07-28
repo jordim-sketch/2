@@ -61,10 +61,10 @@ export const heroData = {
 
 export const aboutSection = {
   title: "THE SQUARED ROOM Mettle Program nació con una idea clara",
-  mainText: "cambiar la forma en la que entrenas, compites y entiendes el deporte",
+  mainText: "cambiar la forma en la que entrenas, comes, compites y entiendes el deporte",
   coachName: "The Squared Room",
   coachTitle: "COACHES EN ENTRENAMIENTO HÍBRIDO Y ESTÉTICA",
-  coachDescription: "Nos dedicamos a crear programaciones, asesorías y planes de nutrición personalizados para deportistas que buscan el máximo rendimiento y la excelencia estética. Porque el entrenamiento y la nutrición van de la mano: uno te construye y el otro te define. Fusionamos la exigencia de pruebas como HYROX, DEKA o Crosstraining con la precisión y el detalle del Bodybuilding. Un enfoque híbrido diseñado para construir un cuerpo donde el rendimiento real se traduce en una presencia física imponente, fuerte y funcional.",
+  coachDescription: "Nos dedicamos a crear programaciones, asesorías y planes de nutrición personalizados para deportistas que buscan el máximo rendimiento y la excelencia estética. Porque el entrenamiento y la nutrición van de la mano: uno te construye y el otro te define. Fusionamos la exigencia de pruebas como HYROX, DEKA o Crosstraining con la precisión y el detalle del Bodybuilding. Y trabajamos sobre la base que casi nadie mira —tu descanso, tu luz y tus ritmos—, el reloj interno que hace que cada entrenamiento cuente de verdad.",
   coachMotto: "METTLE PROGRAM: coraje, espíritu, temple o valor. Es esa capacidad intrínseca de una persona para afrontar una situación difícil o exigente de la mejor manera posible. En The Squared Room, el \"mettle\" es el motor de tu transformación física y competitiva.",
   coachImage: "https://customer-assets-wrfwihn1.emergentagent.net/job_481c88e2-4209-4b31-9e82-df1e1750504d/artifacts/60kut97r_763D0AB4-3488-41FF-B7D8-320E1F355A8C.png"
 };
@@ -78,7 +78,7 @@ export const accordionItems = [
   {
     id: "filosofia",
     title: "Filosofía de Entrenamiento",
-    content: "Aquí no hay fórmulas mágicas ni atajos. Nuestro objetivo es guiarte para que entrenes de forma más inteligente, rindas al máximo y superes tus propios límites. Da igual tu punto de partida, cada programación está diseñada para convertirte en alguien más fuerte, más veloz y más completo. Al final del día, se trata de una cosa: evolucionar constantemente."
+    content: "Aquí no hay fórmulas mágicas ni atajos. Nuestro objetivo es guiarte para que entrenes de forma más inteligente, rindas al máximo y superes tus propios límites. Da igual tu punto de partida, cada programación está diseñada para convertirte en alguien más fuerte, más veloz y más completo. Y siempre en sintonía con tus ritmos naturales: entrenar en el momento adecuado y descansar bien rinde más que simplemente entrenar más. Al final del día, se trata de una cosa: evolucionar constantemente."
   },
   {
     id: "coach",
@@ -132,7 +132,7 @@ export const methodSection = {
 export const breathingSection = {
   label: "RESPIRACIÓN",
   title: "RESPIRA COMO UN ATLETA",
-  intro: "La respiración es la herramienta más rápida y potente para cambiar tu estado: calma, foco, energía o recuperación. Estos son nuestros protocolos.",
+  intro: "La respiración es la herramienta más rápida y potente para cambiar tu estado: calma, foco, energía o recuperación. Trabajamos protocolos concretos contigo, paso a paso.",
   protocols: [
     { name: "Relajación y descanso", pattern: "Inhala 4 · Retén 7 · Exhala 8", benefit: "Baja el estrés y prepara el cuerpo para dormir." },
     { name: "Calma y claridad mental", pattern: "Inhala 4 · Retén 4 · Exhala 4 · Retén 4", benefit: "Box Breathing: enfoque y control antes de entrenar o competir." },
@@ -145,6 +145,100 @@ export const breathingSection = {
   }
 };
 
+export const blogSection = {
+  label: "CONOCIMIENTO",
+  title: "APRENDE A DOMINAR TU RELOJ",
+  subtitle: "Pequeñas píldoras de todo lo que hay detrás del Método Mettle. Ni dietas milagro ni atajos: cómo funciona de verdad tu cuerpo para que entrenar valga la pena."
+};
+
+export const blogArticles = [
+  {
+    category: "Metabolismo",
+    title: "Leptina: el interruptor de tu metabolismo",
+    summary: "La leptina es la hormona que le dice a tu cerebro cuánta energía tienes. Cuando funciona bien, regula tu apetito y tu grasa sin que cuentes nada. El problema es la resistencia a la leptina: comer de noche, la luz artificial y los horarios caóticos hacen que tu cerebro deje de escucharla. El resultado es hambre constante, grasa que no se va y poca energía. La buena noticia: se puede reeducar. Con luz natural por la mañana, cenas tempranas y respeto por la noche, la señal se recupera. Por eso insistimos: el cuándo importa tanto como el qué."
+  },
+  {
+    category: "Entorno",
+    title: "Tu casa también entrena",
+    summary: "El sitio donde vives y duermes influye en tu salud más de lo que crees. Dos enemigos silenciosos: el moho (y sus micotoxinas) y la contaminación electromagnética del hogar. Ambos añaden estrés a tu cuerpo y sabotean tu recuperación sin que te des cuenta. Ventilar bien, controlar la humedad, elegir materiales que respiren y reducir aparatos cerca de la cama marcan una diferencia enorme. No hace falta obsesionarse: pequeños cambios en tu entorno hacen que descanses mejor y rindas más. Tu casa puede jugar a favor o en contra."
+  },
+  {
+    category: "Descanso",
+    title: "El descanso nocturno: tu fábrica de recuperación",
+    summary: "Mientras duermes, tu cuerpo repara, construye músculo y ordena las hormonas. Un mal descanso arruina hasta el mejor entrenamiento. Las claves no son solo dormir horas: importa la oscuridad total, una buena ventilación (el CO2 acumulado te despierta sin saberlo), la temperatura y alejar aparatos eléctricos de la cama. Una noche verdaderamente oscura dispara la melatonina y la reparación celular. Prioriza tu sueño y notarás más fuerza, mejor humor y menos hambre al día siguiente. Dormir bien no es perder el tiempo: es entrenar en modo recuperación."
+  },
+  {
+    category: "Ritmos",
+    title: "El Relojero: tu reloj biológico",
+    summary: "Cada célula de tu cuerpo tiene un reloj, y todos se sincronizan con la luz y la oscuridad. Cuando ese orden se rompe —lo que se llama cronodisrupción— aparecen el cansancio, el mal humor, el sobrepeso y la enfermedad. Vivir de espaldas a los ciclos naturales (poca luz de día, mucha pantalla de noche) confunde a tu organismo. La solución es simple y gratis: ver la luz de la mañana, moverte de día y respetar la noche. Tú eres el relojero de tu propia biología. Ordena el reloj y todo lo demás empieza a funcionar."
+  },
+  {
+    category: "Luz",
+    title: "Sol rojo: la luz que te da energía",
+    summary: "No toda la luz es igual. La luz roja e infrarroja del sol, sobre todo al amanecer y al atardecer, ayuda a tus mitocondrias —las centrales de energía de tus células— a producir más energía. En cambio, el exceso de luz azul artificial (pantallas, LEDs) las estresa. Por eso una salida al aire libre a primera hora vale más que muchos suplementos. Buscar el sol de forma inteligente mejora tu energía, tu descanso y tu recuperación. La luz es un nutriente: aprende a tomarlo."
+  },
+  {
+    category: "Naturaleza",
+    title: "Grounding: reconecta con la tierra",
+    summary: "Caminar descalzo sobre tierra, hierba o arena no es solo agradable: tiene efecto medible. Al conectar con el suelo, tu cuerpo equilibra su carga eléctrica y eso ayuda a tus mitocondrias a producir energía con menos desgaste y menos inflamación. La Tierra actúa como un gran estabilizador natural. Unos minutos al día con los pies en el suelo, especialmente combinado con sol, es un reset sencillo y gratis. Pequeño gesto, gran efecto sobre tu recuperación."
+  },
+  {
+    category: "Metabolismo",
+    title: "Deuterio: el hidrógeno que frena tus mitocondrias",
+    summary: "El deuterio es una forma pesada del hidrógeno presente en el agua y la comida. En exceso, atasca el motor que produce tu energía celular. Los ultraprocesados y ciertos alimentos lo elevan; las grasas naturales, el ayuno, el sol y el movimiento ayudan a mantenerlo bajo. No hace falta volverse loco con esto: comer comida real y natural ya juega a tu favor. Es una pieza más del puzle de por qué la calidad de lo que comes importa tanto como la cantidad."
+  },
+  {
+    category: "Salud",
+    title: "Adaptación natural: el enfoque biofísico",
+    summary: "Tu cuerpo no es solo química: también es luz, agua y electricidad. Este enfoque pone el foco en los cimientos que la vida moderna ha olvidado: luz solar, agua de calidad, contacto con la naturaleza, movimiento y buena nutrición. En vez de tapar síntomas, busca devolver al cuerpo las condiciones para las que fue diseñado. Es una mirada más amplia y sensata de la salud, que encaja perfecto con el rendimiento deportivo. Cuidas la base y el cuerpo hace el resto."
+  },
+  {
+    category: "Hormonas",
+    title: "Salud hormonal femenina y ritmos",
+    summary: "Las hormonas de la mujer son especialmente sensibles a la luz, el descanso, el estrés y la alimentación. La luz azul nocturna, el estrés crónico y los horarios irregulares pueden desequilibrar el ciclo y afectar a la energía, el estado de ánimo y la composición corporal. Reconectar con la luz natural, cuidar el sueño y comer real ayuda a recuperar el equilibrio. Entrenar respetando estos ritmos multiplica los resultados. Salud hormonal primero; rendimiento después."
+  },
+  {
+    category: "Hábitos",
+    title: "Los 10 hábitos que lo cambian todo",
+    summary: "Hay un orden de prioridades para estar sano, y casi nadie lo respeta. Primero, lo básico y gratis: sol por la mañana, noches oscuras, contacto con la naturaleza, buen descanso y el cuándo comer. Después, la calidad del agua, reducir el ruido electromagnético y una alimentación de comida real. Y por último, el ejercicio y un buen entorno social. Cuando ordenas estos hábitos de mayor a menor impacto, tu salud y tu rendimiento despegan. No es hacer más cosas: es hacerlas en el orden correcto."
+  },
+  {
+    category: "Mente",
+    title: "Los 3 alimentos: comida, aire e impresiones",
+    summary: "No solo te alimentas de comida. También del aire que respiras y de las impresiones que recibes: lo que ves, oyes y sientes. Igual que cuidas tu dieta, conviene cuidar tu respiración y aquello a lo que expones tu mente. El estrés, las malas noticias constantes y las pantallas también 'alimentan' —para bien o para mal—. Prestar atención consciente a estos tres alimentos equilibra cuerpo, emociones y mente. Rendir de verdad también es entrenar la cabeza."
+  },
+  {
+    category: "Hidratación",
+    title: "Agua estructurada: hidratación real",
+    summary: "Hidratarse no es solo beber litros de agua. Importa la calidad del agua y cómo tu cuerpo la aprovecha. Tus propias células generan agua a partir de las grasas que quemas, y la luz y el movimiento ayudan a que esa agua funcione mejor dentro de ti. Beber agua de calidad, tomar sol y comer comida real hidrata mejor que forzar vasos y vasos. Una buena hidratación se nota en energía, piel, digestión y rendimiento. Bebe con cabeza, no por obligación."
+  },
+  {
+    category: "Naturaleza",
+    title: "El poder del frío",
+    summary: "El frío bien usado es una de las herramientas más potentes para tu cuerpo y tu mente. Una ducha fría o una exposición controlada al frío activa tu metabolismo, mejora tu circulación y entrena tu resiliencia mental. Grandes atletas y culturas enteras lo han usado siempre. No se trata de sufrir por sufrir, sino de salir un poco de la comodidad para hacerte más fuerte. Empieza suave y progresa. El frío te enseña a estar cómodo estando incómodo: pura mentalidad Mettle."
+  },
+  {
+    category: "Mente",
+    title: "Cuerpo, emoción y mente en equilibrio",
+    summary: "Estar sano no es solo tener un buen físico. Es equilibrar tres planos: el cuerpo (lo que comes y cómo te mueves), las emociones (cómo respiras y gestionas el estrés) y la mente (a qué prestas atención). Cuando uno falla, los otros se resienten. Por eso trabajamos también la respiración, el descanso y los hábitos mentales, no solo las series y repeticiones. Un atleta completo cuida los tres. Ese equilibrio es lo que sostiene el rendimiento a largo plazo."
+  },
+  {
+    category: "Nutrición",
+    title: "Antinutrientes: lo que tu comida esconde",
+    summary: "No todo lo 'saludable' se aprovecha igual. Muchos vegetales, cereales y legumbres contienen antinutrientes como los fitatos, que se pegan a minerales tan importantes como el zinc o el hierro y dificultan que los absorbas. Por eso a veces comes bien y sigues bajo de energía. Los alimentos de origen animal (huevos, pescado, carnes, marisco) aportan proteína y minerales muy biodisponibles y sin antinutrientes. No es demonizar los vegetales, sino saber prepararlos y priorizar comida densa en nutrientes. Alimenta lo que de verdad te nutre."
+  },
+  {
+    category: "Luz",
+    title: "Ambiente de luz: día brillante, noche oscura",
+    summary: "La regla de oro de tus ritmos: mucha luz natural de día y oscuridad real de noche. La luz brillante de la mañana pone tu reloj en hora y te da energía; la luz azul de pantallas por la noche la desajusta y arruina tu descanso. La solución no es cara: sal a la luz temprano y baja las pantallas y las luces por la noche. Este simple contraste diario mejora tu sueño, tu ánimo y tu metabolismo. Ordena tu luz y ordenas tu cuerpo."
+  },
+  {
+    category: "Respiración",
+    title: "Respiración: tu mando a distancia interno",
+    summary: "La respiración es el atajo más rápido para cambiar cómo te sientes: puedes calmarte, enfocarte, activarte o recuperarte en minutos. Existen protocolos concretos para cada objetivo: para dormir mejor, para concentrarte antes de competir o para controlar los antojos. Y técnicas más potentes, como el método de respiración con frío, que disparan tu energía y tu resistencia mental. Es gratis, la llevas siempre contigo y funciona. Aprender a respirar bien es aprender a controlar tu estado. Estos protocolos los trabajamos contigo."
+  }
+];
+
 export const coachPhilosophy = {
   quote: "Nuestro enfoque es simple: combinar fuerza, resistencia y mentalidad",
   subtext: "Aquí no hay secretos, solo trabajo, constancia y disciplina",
@@ -154,7 +248,7 @@ export const coachPhilosophy = {
 export const onlineCoaching = {
   title: "ASESORÍA ONLINE",
   subtitle: "Entrenamiento personalizado para atletas reales.",
-  description: "Esta es la opción para quienes quieren ir un paso más allá. No se trata solo de seguir una app. Se trata de tener a un coach que te guía, te corrige y te empuja a tu máximo rendimiento.",
+  description: "Esta es la opción para quienes quieren ir un paso más allá. No se trata solo de seguir una app. Se trata de tener a un coach que te guía, te corrige y te empuja a tu máximo rendimiento, cuidando también tu descanso, tu exposición a la luz y tus hábitos, porque ahí empieza el rendimiento real.",
   image: "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg?auto=compress&cs=tinysrgb&w=800"
 };
 
@@ -169,7 +263,7 @@ export const faqItems = [
   },
   {
     question: "¿Qué resultados puedo esperar?",
-    answer: "Más rendimiento, más control, y mejores sensaciones en cada entreno. Mejorarás tu fuerza, tu capacidad cardiovascular y tu técnica en cada bloque. El progreso será visible y medible."
+    answer: "Más rendimiento, más control, y mejores sensaciones en cada entreno. Mejorarás tu fuerza, tu capacidad cardiovascular y tu técnica en cada bloque. Y al ordenar tu descanso, tu luz y tus horarios de comida, notarás que el progreso llega antes y se mantiene. El progreso será visible y medible."
   },
   {
     question: "¿Cómo se trabaja?",
