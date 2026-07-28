@@ -102,3 +102,10 @@ El usuario quiere introducir la FILOSOFÍA de todos estos archivos de forma SUTI
 - Datos en mockData.methodSection y mockData.breathingSection.
 - Verificado testing_agent iteration_6 (100%). Mejora: threshold del scroll-reveal bajado a 0.01 para elementos muy altos.
 - Uso de los 17 docs: la filosofía se integró de forma sutil aquí. Los artículos completos (sección Blog) siguen pendientes/opcionales.
+
+## ACTUALIZACIÓN (jun 2026) - Filosofía en pinceladas + Blog
+- REORDEN: MethodSection movida a justo después de AboutSection (antes de CoachSection).
+- MethodSection recortada: eliminados los 3 protocolos de respiración y la tarjeta Wim Hof (van al blog). Solo queda el teaser "RESPIRA COMO UN ATLETA" + CTA.
+- PINCELADAS sutiles añadidas a textos existentes: aboutSection.coachDescription (reloj interno/descanso/luz), accordionItems filosofía (ritmos naturales), onlineCoaching.description (luz/descanso/hábitos), faq "resultados" (ordenar descanso/luz/horarios).
+- NUEVO Blog (`BlogSection.jsx`, id=#blog, entre Testimonials y Contact): 17 artículos con resúmenes sutiles (~10 líneas), tarjetas expandibles (Leer más/menos con line-clamp-3). Datos en mockData.blogSection y mockData.blogArticles.
+- Verificado testing_agent iteration_7 (100%): orden correcto, protocolos/WimHof eliminados, 17 tarjetas expandibles OK, sin regresiones.
