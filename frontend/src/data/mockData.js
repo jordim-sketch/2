@@ -73,7 +73,7 @@ export const accordionItems = [
   {
     id: "formacion",
     title: "Formación",
-    content: "Contamos con formación como entrenadores personales certificados, además de un Máster especializado en Crosstraining que abarca Entrenamiento, Nutrición y Readaptación deportiva. También estamos acreditados como Coaches de entrenamiento funcional de alto rendimiento."
+    content: "Avalados como entrenadores personales certificados y coaches acreditados en Entrenamiento Funcional de Alto Rendimiento, contamos además con un Máster en Crosstraining enfocado en tres pilares clave: Entrenamiento, Nutrición y Readaptación Deportiva."
   },
   {
     id: "filosofia",
