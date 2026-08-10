@@ -109,3 +109,13 @@ El usuario quiere introducir la FILOSOFÍA de todos estos archivos de forma SUTI
 - PINCELADAS sutiles añadidas a textos existentes: aboutSection.coachDescription (reloj interno/descanso/luz), accordionItems filosofía (ritmos naturales), onlineCoaching.description (luz/descanso/hábitos), faq "resultados" (ordenar descanso/luz/horarios).
 - NUEVO Blog (`BlogSection.jsx`, id=#blog, entre Testimonials y Contact): 17 artículos con resúmenes sutiles (~10 líneas), tarjetas expandibles (Leer más/menos con line-clamp-3). Datos en mockData.blogSection y mockData.blogArticles.
 - Verificado testing_agent iteration_7 (100%): orden correcto, protocolos/WimHof eliminados, 17 tarjetas expandibles OK, sin regresiones.
+
+## ACTUALIZACIÓN (jun 2026) - Fotos reales + Planes
+- Transformaciones Marc y David ahora usan FOTOS REALES del usuario (IMG_3953/3952 = Marc; IMG_3955/3954 = David). Laura y Anna siguen con fotos IA de ejemplo (pendiente fotos reales).
+- Texto "Formación" actualizado con nueva redacción del usuario.
+- Resultados: 450+ atletas, 20+ años; tarjetas: "Entrenamiento híbrido", "Composición corporal / Más masa muscular", "Crosstraining / Rendimiento físico real...".
+- NUEVA **Sección de Planes** (`PricingSection.jsx`, id=#planes, entre BlogSection y ContactSection): 3 planes ESSENTIAL 59€, PERFORMANCE 99€ (destacado "EL MÁS ELEGIDO"), METTLE TOTAL 149€. CTA "Reserva tu plaza" → #contacto. Footnote: descuento 10% trimestral + valoración gratuita. Datos en mockData.pricingSection. Verificado testing_agent iteration_8 (100%).
+- Precios aprobados por el usuario según mercado español.
+
+## PENDIENTE / PRÓXIMO
+- El usuario está valorando PUBLICAR (deploy). Coste 50 créditos/mes, redeploy gratis, dominio propio (ej. byoh) conectable tras publicar. La web ya está lista para publicar.

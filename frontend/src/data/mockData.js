@@ -145,6 +145,54 @@ export const breathingSection = {
   }
 };
 
+export const pricingSection = {
+  label: "PLANES",
+  title: "ELIGE CÓMO QUIERES ENTRENAR",
+  subtitle: "Sin permanencia. Empieza cuando quieras y sube de plan cuando lo necesites.",
+  footnote: "Descuento del 10% en pago trimestral · Primera valoración gratuita",
+  plans: [
+    {
+      name: "ESSENTIAL",
+      price: "59",
+      period: "€/mes",
+      description: "Para empezar con un plan serio y a tu medida.",
+      featured: false,
+      features: [
+        "Programación de entrenamiento 100% personalizada",
+        "Revisión y ajuste mensual",
+        "Soporte por mensaje directo"
+      ]
+    },
+    {
+      name: "PERFORMANCE",
+      price: "99",
+      period: "€/mes",
+      description: "Entrenamiento y nutrición trabajando juntos.",
+      featured: true,
+      badge: "EL MÁS ELEGIDO",
+      features: [
+        "Todo lo del plan Essential",
+        "Plan de nutrición personalizado",
+        "Seguimiento y ajustes semanales",
+        "Feedback de técnica y rendimiento"
+      ]
+    },
+    {
+      name: "METTLE TOTAL",
+      price: "149",
+      period: "€/mes",
+      description: "La experiencia completa del Método Mettle.",
+      featured: false,
+      features: [
+        "Todo lo del plan Performance",
+        "Método Mettle: luz, descanso, frío y respiración",
+        "Protocolos de hábitos y ritmos circadianos",
+        "Contacto prioritario con tu coach"
+      ]
+    }
+  ]
+};
+
 export const blogSection = {
   label: "CONOCIMIENTO",
   title: "APRENDE A DOMINAR TU RELOJ",
