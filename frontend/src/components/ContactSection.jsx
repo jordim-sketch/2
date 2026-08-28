@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
-import { siteConfig, contactSection } from '../data/mockData';
+import React, { useState, useEffect } from 'react';
+import { siteConfig, contactSection, pricingSection } from '../data/mockData';
 import { Send } from 'lucide-react';
+
+const planOptions = pricingSection.plans.map((p) => `Plan ${p.name} (${p.price}${p.period})`);
+const objectiveOptions = [...planOptions, ...contactSection.objectives];
 
 const ContactSection = () => {
   const [form, setForm] = useState({
@@ -9,6 +12,18 @@ const ContactSection = () => {
     objetivo: contactSection.objectives[0],
     mensaje: ''
   });
+
+  useEffect(() => {
+    const handlePlan = (e) => {
+      const plan = e.detail;
+      const match = planOptions.find((opt) => opt.startsWith(`Plan ${plan}`));
+      if (match) {
+        setForm((prev) => ({ ...prev, objetivo: match }));
+      }
+    };
+    window.addEventListener('plan-selected', handlePlan);
+    return () => window.removeEventListener('plan-selected', handlePlan);
+  }, []);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -20,7 +35,7 @@ const ContactSection = () => {
       `Hola The Squared Room! 👋\n\n` +
       `*Nombre:* ${form.nombre}\n` +
       `*Email:* ${form.email}\n` +
-      `*Objetivo:* ${form.objetivo}\n` +
+      `*Objetivo / Plan:* ${form.objetivo}\n` +
       `*Mensaje:* ${form.mensaje}`;
     const url = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -83,7 +98,7 @@ const ContactSection = () => {
 
           <div>
             <label className="block text-white/70 text-sm mb-2 tracking-wide">
-              Objetivo
+              Objetivo / Plan de interés
             </label>
             <select
               name="objetivo"
@@ -92,7 +107,7 @@ const ContactSection = () => {
               data-testid="contact-objective-select"
               className="w-full bg-white/5 border border-white/15 text-white px-4 py-3 focus:outline-none focus:border-[#2CA5A5] transition-colors appearance-none cursor-pointer"
             >
-              {contactSection.objectives.map((opt) => (
+              {objectiveOptions.map((opt) => (
                 <option key={opt} value={opt} className="bg-black text-white">
                   {opt}
                 </option>

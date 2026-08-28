@@ -69,6 +69,9 @@ const PricingSection = () => {
               <a
                 href="#contacto"
                 data-testid={`pricing-cta-${index}`}
+                onClick={() =>
+                  window.dispatchEvent(new CustomEvent('plan-selected', { detail: plan.name }))
+                }
                 className={`block text-center font-bold px-8 py-4 text-sm tracking-wider transition-colors ${
                   plan.featured
                     ? 'bg-[#2CA5A5] text-black hover:bg-[#248888]'
