@@ -55,7 +55,7 @@ export const nutritionSection = {
 export const heroData = {
   name: "THE SQUARED ROOM",
   subtitle: "Mettle Program",
-  motto: "ENTRENAMIENTO + NUTRICIÓN",
+  motto: "ENTRENAMIENTO + NUTRICIÓN + CIENCIA OBJETIVA",
   videoUrl: ""
 };
 
