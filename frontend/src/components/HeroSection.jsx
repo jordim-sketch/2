@@ -27,7 +27,7 @@ const HeroSection = () => {
         </h1>
         
         {/* Mettle Program subtitle */}
-        <p className="text-xl md:text-2xl lg:text-3xl text-white tracking-widest mb-3">
+        <p className="text-3xl md:text-4xl lg:text-5xl text-white tracking-widest mb-3">
           {heroData.subtitle}
         </p>
 
