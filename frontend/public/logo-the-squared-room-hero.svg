@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 880" width="1700" height="880">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&amp;display=swap');
+      .t{font-family:'Antonio','Oswald','Arial Narrow',sans-serif;}
+      .w{fill:#FFFFFF;} .a{fill:#2CA5A5;}
+    </style>
+  </defs>
+  <text class="t w" x="850" y="230" text-anchor="middle" font-size="150" font-weight="700" letter-spacing="2">THE SQUARED ROOM</text>
+  <text class="t w" x="850" y="360" text-anchor="middle" font-size="96" font-weight="400" letter-spacing="2">Mettle Program</text>
+  <text class="t a" x="850" y="452" text-anchor="middle" font-size="34" font-weight="600" letter-spacing="9">ENTRENAMIENTO + NUTRICIÓN + CIENCIA OBJETIVA</text>
+  <text class="t a" x="850" y="565" text-anchor="middle" font-size="66" font-weight="700" letter-spacing="12">BE YOUR OWN HERO</text>
+  <text class="t w" x="850" y="680" text-anchor="middle" font-size="30" font-weight="600" letter-spacing="6">@THESQRLLEIDA</text>
+</svg>
