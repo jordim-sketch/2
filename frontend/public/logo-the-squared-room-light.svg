@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&amp;display=swap');
+      .t{font-family:'Antonio','Oswald','Arial Narrow',sans-serif;fill:#FFFFFF;}
+      .a{fill:#2CA5A5;}
+    </style>
+  </defs>
+  <rect x="110" y="110" width="980" height="980" fill="none" stroke="#2CA5A5" stroke-width="6"/>
+  <text class="t" x="600" y="410" text-anchor="middle" font-size="70" font-weight="600" letter-spacing="26">THE</text>
+  <text class="t" x="600" y="585" text-anchor="middle" font-size="168" font-weight="700" letter-spacing="4">SQUARED</text>
+  <text class="t" x="600" y="745" text-anchor="middle" font-size="168" font-weight="700" letter-spacing="10">ROOM</text>
+  <line x1="360" y1="805" x2="840" y2="805" stroke="#2CA5A5" stroke-width="4"/>
+  <text class="t a" x="600" y="892" text-anchor="middle" font-size="60" font-weight="600" letter-spacing="16">METTLE PROGRAM</text>
+  <text class="t" x="600" y="998" text-anchor="middle" font-size="42" font-weight="600" letter-spacing="14">BE YOUR OWN HERO</text>
+</svg>
