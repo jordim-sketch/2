@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1180" width="1100" height="1180">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&amp;display=swap');
+      .t{font-family:'Antonio','Oswald','Arial Narrow',sans-serif;}
+      .b{fill:#0B0B0B;} .a{fill:#2CA5A5;}
+    </style>
+  </defs>
+  <rect x="220" y="110" width="660" height="660" fill="none" stroke="#2CA5A5" stroke-width="16"/>
+  <text class="t b" x="550" y="575" text-anchor="middle" font-size="360" font-weight="700" textLength="520" lengthAdjust="spacingAndGlyphs">TSR</text>
+  <text class="t b" x="550" y="895" text-anchor="middle" font-size="48" font-weight="700" letter-spacing="6">THE SQUARED ROOM</text>
+  <text class="t a" x="550" y="965" text-anchor="middle" font-size="34" font-weight="600" letter-spacing="10">BE YOUR OWN HERO</text>
+</svg>
