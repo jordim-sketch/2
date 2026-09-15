@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1300" width="1200" height="1300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&amp;display=swap');
+      .t{font-family:'Antonio','Oswald','Arial Narrow',sans-serif;}
+      .w{fill:#FFFFFF;} .a{fill:#2CA5A5;}
+    </style>
+  </defs>
+  <text class="t w" x="600" y="170" text-anchor="middle" font-size="52" font-weight="700" letter-spacing="8">THE SQUARED ROOM</text>
+  <rect x="560" y="200" width="80" height="8" fill="#2CA5A5"/>
+  <text class="t w" x="600" y="455" text-anchor="middle" font-size="150" font-weight="700" letter-spacing="4">BE YOUR</text>
+  <text class="t w" x="600" y="615" text-anchor="middle" font-size="150" font-weight="700" letter-spacing="10">OWN</text>
+  <text class="t a" x="600" y="855" text-anchor="middle" font-size="240" font-weight="700" letter-spacing="6">HERO</text>
+  <text class="t w" x="600" y="1000" text-anchor="middle" font-size="38" font-weight="600" letter-spacing="6">PERSONAL TRAINER</text>
+</svg>
