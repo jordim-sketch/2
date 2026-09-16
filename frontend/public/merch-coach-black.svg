@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" width="1400" height="760">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&amp;display=swap');
+      .t{font-family:'Antonio','Oswald','Arial Narrow',sans-serif;}
+      .b{fill:#0B0B0B;} .a{fill:#2CA5A5;}
+    </style>
+  </defs>
+  <text class="t b" x="700" y="430" text-anchor="middle" font-size="380" font-weight="700" textLength="1250" lengthAdjust="spacingAndGlyphs">COACH</text>
+  <text class="t a" x="700" y="650" text-anchor="middle" font-size="96" font-weight="700" textLength="1250" lengthAdjust="spacingAndGlyphs">METTLE PROGRAM ONLINE</text>
+</svg>
